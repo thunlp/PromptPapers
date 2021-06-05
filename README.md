@@ -1,7 +1,7 @@
 # PromptPapers
 
 
-![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=blue) ![](https://img.shields.io/badge/PaperNumber-11-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
+![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=blue) ![](https://img.shields.io/badge/PaperNumber-12-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
 
 
 Must-read papers on prompt-based tuning for pre-trained language models. The paper list is mainly mantained by Ning Ding and Shengding Hu.
