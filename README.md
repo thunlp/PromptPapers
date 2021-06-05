@@ -13,6 +13,6 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 4. **Factual Probing Is [MASK]: Learning vs. Learning to Recall.** *Zexuan Zhong, Dan Friedman, Danqi Chen.* NAACL 2021.  [[pdf](https://arxiv.org/pdf/2104.05240.pdf)], [[project](https://github.com/princeton-nlp/OptiPrompt)] 
 5. **How Can We Know What Language Models Know?** *Zhengbao Jiang, Frank F. Xu, Jun Araki, Graham Neubig*. TACL 2020. [[pdf](https://arxiv.org/pdf/1911.12543.pdf)], [[project](https://github.com/jzbjyb/LPAQA)]
 6. **GPT understands, too.** *Xiao Liu, Yanan Zheng, Zhengxiao Du, Ming Ding, Yujie Qian, Zhilin Yang, Jie Tang*. Preprint. [[pdf](https://arxiv.org/pdf/2103.10385.pdf)], [[project](https://github.com/THUDM/P-tuning)]
-7. **PTR: Prompt Tuning with Rules for Text Classification.** *Xu Han, Weilin Zhao, Ning Ding, Zhiyuan Liu, Maosong Sun.* Preprint. [[pdf](https://arxiv.org/pdf/2105.11259.pdf)]
-8. **AdaPrompt: Adaptive Prompt-based Finetuning for Relation Extraction.**  [[pdf](https://arxiv.org/pdf/2104.07650.pdf)]
+7. **AdaPrompt: Adaptive Prompt-based Finetuning for Relation Extraction.** *Xiang Chen, Xin Xie, Ningyu Zhang, Jiahuan Yan, Shumin Deng, Chuanqi Tan, Fei Huang, Luo Si, Huajun Chen*. Preprint. [[pdf](https://arxiv.org/pdf/2104.07650.pdf)]
+8. **PTR: Prompt Tuning with Rules for Text Classification.** *Xu Han, Weilin Zhao, Ning Ding, Zhiyuan Liu, Maosong Sun.* Preprint. [[pdf](https://arxiv.org/pdf/2105.11259.pdf)]
 
