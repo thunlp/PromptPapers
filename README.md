@@ -122,7 +122,7 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 
 2. **GPT3Mix: Leveraging Large-scale Language Models for Text Augmentation.** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/DataAugmentation-blue)
 
-      *Kang Min Yoo, Dongju Park, Jaewook Kang, Sang-Woo Lee, Woomyeong Park.* [[pdf](https://arxiv.org/pdf/2104.08826.pdf)] (2021.4)
+      *Kang Min Yoo, Dongju Park, Jaewook Kang, Sang-Woo Lee, Woomyeong Park.* [[pdf](https://arxiv.org/pdf/2104.08826.pdf)] 2021.4
    
 3. **PADA: A Prompt-based Autoregressive Approach for Adaptation to Unseen Domains** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/DomainAdaptation-blue)
 
