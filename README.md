@@ -124,6 +124,14 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 
       *Swaroop Mishra, Daniel Khashabi, Chitta Baral, Hannaneh Hajishirzi.* [[pdf](https://arxiv.org/pdf/2104.08773.pdf)] [[project](https://arxiv.org/pdf/2104.08773.pdf)] 2021.4
 
+5. **Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity**. Preprint. 
+
+    *Yao Lu, Max Bartolo, Alastair Moore, Sebastian Riedel, Pontus Stenetorp*. [[pdf](https://arxiv.org/pdf/2104.08786.pdf)] 2021.4
+
+6. **What Makes Good In-Context Examples for GPT-3?**. Preprint. 
+
+    *Jiachang Liu, Dinghan Shen, Yizhe Zhang, Bill Dolan, Lawrence Carin, Weizhu Chen*. [[pdf](https://arxiv.org/pdf/2101.06804)] 2021.1
+
 ### Prompt Application
 
 1. **Thinking Aloud: Dynamic Context Generation Improves Zero-Shot Reasoning Performance of GPT-2.** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Reasoning-blue)
