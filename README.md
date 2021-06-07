@@ -86,8 +86,14 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 17.  **AdaPrompt: Adaptive Prompt-based Finetuning for Relation Extraction.** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
 
      *Xiang Chen, Xin Xie, Ningyu Zhang, Jiahuan Yan, Shumin Deng, Chuanqi Tan, Fei Huang, Luo Si, Huajun Chen*.  [[pdf](https://arxiv.org/pdf/2104.07650.pdf)], 2021.4
-
+     
 
 18.  **PTR: Prompt Tuning with Rules for Text Classification.** Preprint.  ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
 
      *Xu Han, Weilin Zhao, Ning Ding, Zhiyuan Liu, Maosong Sun.*  [[pdf](https://arxiv.org/pdf/2105.11259.pdf)] **(PTR)**, 2021.5
+     
+     
+    
+    
+    
+    
