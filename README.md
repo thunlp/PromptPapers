@@ -13,6 +13,8 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 
 ## Papers
 
+### Prompt Designing
+
 1. **Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer.**  JMLR.  ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Seq2seq-blue)
 
    *Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu.* [[pdf](https://arxiv.org/pdf/1910.10683.pdf)], [[project](https://github.com/google-research/text-to-text-transfer-transformer)], **(T5)**.  2019.10. 
@@ -62,38 +64,50 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
     
      *Laria Reynolds, Kyle McDonell.*  [[pdf](https://arxiv.org/pdf/2102.07350)], 2021.2
 
+13. **Improving and Simplifying Pattern Exploiting Training.** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
 
-13.  **The Power of Scale for Parameter-Efﬁcient Prompt Tuning.** Preprint. ![](https://img.shields.io/badge/Continuous-red) ![](https://img.shields.io/badge/Classification-blue)
+
+      *Derek Tam, Rakesh R Menon, Mohit Bansal, Shashank Srivastava, Colin Raffel.* [[pdf]](https://arxiv.org/pdf/2103.11955.pdf)
+
+14.  **The Power of Scale for Parameter-Efﬁcient Prompt Tuning.** Preprint. ![](https://img.shields.io/badge/Continuous-red) ![](https://img.shields.io/badge/Classification-blue)
 
      *Brian Lester, Rami Al-Rfou, Noah Constant*. [[pdf](https://arxiv.org/pdf/2104.08691.pdf)], [[implementation](https://github.com/kipgparker/soft-prompt-tuning)], 2021.4
 
 
-14.  **How Many Data Points is a Prompt Worth?** NAACL 2021. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
+15.  **How Many Data Points is a Prompt Worth?** NAACL 2021. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
 
      *Teven Le Scao, Alexander M. Rush.*  [[pdf](https://arxiv.org/pdf/2103.08493.pdf)], [[project](https://github.com/TevenLeScao/pet)], 2021.3
 
+16. **Learning How to Ask: Querying LMs with Mixtures of Soft Prompts.** NAACL 2021. ![](https://img.shields.io/badge/Continuous-red) ![](https://img.shields.io/badge/Classification-blue)
+   
+      *Guanghui Qin, Jason Eisner* [[pdf](https://arxiv.org/pdf/2104.06599.pdf)] [[project](https://github.com/hiaoxui/soft-prompts)], 2021.4
 
-15.  **GPT understands, too.** Preprint. ![](https://img.shields.io/badge/Continuous-red) ![](https://img.shields.io/badge/Probing-blue) ![](https://img.shields.io/badge/Classification-blue)
+17.  **GPT understands, too.** Preprint. ![](https://img.shields.io/badge/Continuous-red) ![](https://img.shields.io/badge/Probing-blue) ![](https://img.shields.io/badge/Classification-blue)
 
      *Xiao Liu, Yanan Zheng, Zhengxiao Du, Ming Ding, Yujie Qian, Zhilin Yang, Jie Tang*.  [[pdf](https://arxiv.org/pdf/2103.10385.pdf)], [[project](https://github.com/THUDM/P-tuning)] **(P-tuning)**, 2021.3
 
 
-16.  **Factual Probing Is [MASK]: Learning vs. Learning to Recall.** NAACL 2021. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Probing-blue)
+18.  **Factual Probing Is [MASK]: Learning vs. Learning to Recall.** NAACL 2021. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Probing-blue)
 
      *Zexuan Zhong, Dan Friedman, Danqi Chen.*  [[pdf](https://arxiv.org/pdf/2104.05240.pdf)], [[project](https://github.com/princeton-nlp/OptiPrompt)], 2021.4
 
 
-17.  **AdaPrompt: Adaptive Prompt-based Finetuning for Relation Extraction.** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
+19.  **AdaPrompt: Adaptive Prompt-based Finetuning for Relation Extraction.** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
 
      *Xiang Chen, Xin Xie, Ningyu Zhang, Jiahuan Yan, Shumin Deng, Chuanqi Tan, Fei Huang, Luo Si, Huajun Chen*.  [[pdf](https://arxiv.org/pdf/2104.07650.pdf)], 2021.4
      
 
-18.  **PTR: Prompt Tuning with Rules for Text Classification.** Preprint.  ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
+20.  **PTR: Prompt Tuning with Rules for Text Classification.** Preprint.  ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
 
      *Xu Han, Weilin Zhao, Ning Ding, Zhiyuan Liu, Maosong Sun.*  [[pdf](https://arxiv.org/pdf/2105.11259.pdf)] **(PTR)**, 2021.5
      
      
-    
-    
+### Prompt Analysis
+
+1. **Surface Form Competition- Why the Highest Probability Answer Isn’t Always Right.** Preprint. 
+
+   *Ari Holtzman, Peter West, Vered Schwartz, Yejin Choi, Luke Zettlemoyer.* [[pdf](https://arxiv.org/pdf/2104.08315.pdf)] [[project](https://github.com/peterwestuw/surface-form-competition)], 2021.4
+
+
     
     
