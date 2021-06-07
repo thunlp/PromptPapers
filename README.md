@@ -3,7 +3,18 @@
 
 ![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-25-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
 
-Must-read papers on prompt-based tuning for pre-trained language models. The paper list is mainly mantained by [Ning Ding](https://github.com/ningding97) and [Shengding Hu](https://github.com/shengdinghu). We thank [Yujia Qin](https://github.com/thuqinyj16) for the paper recommendation. Pull requests and issues are welcomed!
+Must-read papers on prompt-based tuning for pre-trained language models. The paper list is mainly mantained by [Ning Ding](https://github.com/ningding97) and [Shengding Hu](https://github.com/shengdinghu). 
+
+## Contents
+
+- [Introduction](#Introduction)
+- [Papers](#Papers)
+  - [Prompt Designing](#Prompt-Designing)
+  - [Prompt Analysis](#Prompt-Analysis)
+  - [Prompt Application](#prompt-application)
+- [Other Contributors](#Other-Contributors)
+
+
 
 ## Introduction
 
@@ -48,31 +59,31 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 
    *Timo Schick, Hinrich Schütze.*  [[pdf](https://arxiv.org/pdf/2001.07676.pdf)], [[project](https://github.com/timoschick/pet)] **(PET)**, 2021.1
 
-9.  **Prefix-tuning: Optimizing continuous prompts for generation**. Preprint. ![](https://img.shields.io/badge/Continuous-red) ![](https://img.shields.io/badge/Generation-blue)
-    
+9. **Prefix-tuning: Optimizing continuous prompts for generation**. Preprint. ![](https://img.shields.io/badge/Continuous-red) ![](https://img.shields.io/badge/Generation-blue)
+
     *Xiang Lisa Li, Percy Liang.* [[pdf](https://arxiv.org/pdf/2101.00190.pdf)], [[project](https://github.com/XiangLi1999/PrefixTuning)], 2021.1
 
-10.  **Calibrate Before Use: Improving Few-Shot Performance of Language Models.**  Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
-      
-		*Tony Z. Zhao, Eric Wallace, Shi Feng, Dan Klein, Sameer Singh.*  [[pdf](https://arxiv.org/pdf/2102.09690.pdf)], [[project](https://github.com/tonyzhaozh/few-shot-learning)], 2021.2
+10. **Calibrate Before Use: Improving Few-Shot Performance of Language Models.**  Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
+
+   	*Tony Z. Zhao, Eric Wallace, Shi Feng, Dan Klein, Sameer Singh.*  [[pdf](https://arxiv.org/pdf/2102.09690.pdf)], [[project](https://github.com/tonyzhaozh/few-shot-learning)], 2021.2
 
 
-11.  **Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm.**  Preprint. ![](https://img.shields.io/badge/Discrete-red)
-    
+11.   **Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm.**  Preprint. ![](https://img.shields.io/badge/Discrete-red)
+
      *Laria Reynolds, Kyle McDonell.*  [[pdf](https://arxiv.org/pdf/2102.07350)], 2021.2
 
-12. **Improving and Simplifying Pattern Exploiting Training.** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
+12.   **Improving and Simplifying Pattern Exploiting Training.** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
 
 
       *Derek Tam, Rakesh R Menon, Mohit Bansal, Shashank Srivastava, Colin Raffel.* [[pdf]](https://arxiv.org/pdf/2103.11955.pdf)
 
-13.  **The Power of Scale for Parameter-Efﬁcient Prompt Tuning.** Preprint. ![](https://img.shields.io/badge/Continuous-red) ![](https://img.shields.io/badge/Classification-blue)
+13.   **The Power of Scale for Parameter-Efﬁcient Prompt Tuning.** Preprint. ![](https://img.shields.io/badge/Continuous-red) ![](https://img.shields.io/badge/Classification-blue)
 
      *Brian Lester, Rami Al-Rfou, Noah Constant*. [[pdf](https://arxiv.org/pdf/2104.08691.pdf)], [[implementation](https://github.com/kipgparker/soft-prompt-tuning)], 2021.4
 
 
-14. **Learning How to Ask: Querying LMs with Mixtures of Soft Prompts.** NAACL 2021. ![](https://img.shields.io/badge/Continuous-red) ![](https://img.shields.io/badge/Classification-blue)
-   
+14.  **Learning How to Ask: Querying LMs with Mixtures of Soft Prompts.** NAACL 2021. ![](https://img.shields.io/badge/Continuous-red) ![](https://img.shields.io/badge/Classification-blue)
+
       *Guanghui Qin, Jason Eisner* [[pdf](https://arxiv.org/pdf/2104.06599.pdf)] [[project](https://github.com/hiaoxui/soft-prompts)], 2021.4
 
 15.  **GPT understands, too.** Preprint. ![](https://img.shields.io/badge/Continuous-red) ![](https://img.shields.io/badge/Probing-blue) ![](https://img.shields.io/badge/Classification-blue)
@@ -80,21 +91,20 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
      *Xiao Liu, Yanan Zheng, Zhengxiao Du, Ming Ding, Yujie Qian, Zhilin Yang, Jie Tang*.  [[pdf](https://arxiv.org/pdf/2103.10385.pdf)], [[project](https://github.com/THUDM/P-tuning)] **(P-tuning)**, 2021.3
 
 
-16.  **Factual Probing Is [MASK]: Learning vs. Learning to Recall.** NAACL 2021. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Probing-blue)
+16.   **Factual Probing Is [MASK]: Learning vs. Learning to Recall.** NAACL 2021. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Probing-blue)
 
      *Zexuan Zhong, Dan Friedman, Danqi Chen.*  [[pdf](https://arxiv.org/pdf/2104.05240.pdf)], [[project](https://github.com/princeton-nlp/OptiPrompt)], 2021.4
 
 
-17.  **AdaPrompt: Adaptive Prompt-based Finetuning for Relation Extraction.** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
+17.   **AdaPrompt: Adaptive Prompt-based Finetuning for Relation Extraction.** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
 
      *Xiang Chen, Xin Xie, Ningyu Zhang, Jiahuan Yan, Shumin Deng, Chuanqi Tan, Fei Huang, Luo Si, Huajun Chen*.  [[pdf](https://arxiv.org/pdf/2104.07650.pdf)], 2021.4
-     
 
-18.  **PTR: Prompt Tuning with Rules for Text Classification.** Preprint.  ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
+18.   **PTR: Prompt Tuning with Rules for Text Classification.** Preprint.  ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
 
-     *Xu Han, Weilin Zhao, Ning Ding, Zhiyuan Liu, Maosong Sun.*  [[pdf](https://arxiv.org/pdf/2105.11259.pdf)] **(PTR)**, 2021.5
-     
-     
+      *Xu Han, Weilin Zhao, Ning Ding, Zhiyuan Liu, Maosong Sun.*  [[pdf](https://arxiv.org/pdf/2105.11259.pdf)] **(PTR)**, 2021.5
+
+      
 ### Prompt Analysis
 
 1. **Language Models as Knowledge Bases?** EMNLP 2019.  ![](https://img.shields.io/badge/Resource-green) ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Probing-blue)
@@ -109,11 +119,11 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 3. **Surface Form Competition-Why the Highest Probability Answer Isn’t Always Right.** Preprint. 
 
    *Ari Holtzman, Peter West, Vered Schwartz, Yejin Choi, Luke Zettlemoyer.* [[pdf](https://arxiv.org/pdf/2104.08315.pdf)] [[project](https://github.com/peterwestuw/surface-form-competition)], 2021.4
-    
+
 4. **Natural Instructions: Benchmarking Generalization to New Tasks from Natural Language Instructions.** Preprint.  ![](https://img.shields.io/badge/Resource-green)
 
       *Swaroop Mishra, Daniel Khashabi, Chitta Baral, Hannaneh Hajishirzi.* [[pdf](https://arxiv.org/pdf/2104.08773.pdf)] [[project](https://arxiv.org/pdf/2104.08773.pdf)] 2021.4
-    
+
 ### Prompt Application
 
 1. **Thinking Aloud: Dynamic Context Generation Improves Zero-Shot Reasoning Performance of GPT-2.** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Reasoning-blue)
@@ -123,8 +133,13 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 2. **GPT3Mix: Leveraging Large-scale Language Models for Text Augmentation.** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/DataAugmentation-blue)
 
       *Kang Min Yoo, Dongju Park, Jaewook Kang, Sang-Woo Lee, Woomyeong Park.* [[pdf](https://arxiv.org/pdf/2104.08826.pdf)] 2021.4
-   
+
 3. **PADA: A Prompt-based Autoregressive Approach for Adaptation to Unseen Domains** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/DomainAdaptation-blue)
 
 
       *Eyal Ben-David, Nadav Oved, Roi Reichart.* [[pdf](https://arxiv.org/pdf/2102.12206)] [[project](https://github.com/eyalbd2/PADA)] 2021.5
+
+
+## Other Contributors
+
+ We thank [Yujia Qin](https://github.com/thuqinyj16) for the paper recommendation. Pull requests and issues are welcomed!
