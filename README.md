@@ -1,18 +1,20 @@
 # PromptPapers
 
 
-![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-25-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
+![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-28-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
 
 Must-read papers on prompt-based tuning for pre-trained language models. The paper list is mainly mantained by [Ning Ding](https://github.com/ningding97) and [Shengding Hu](https://github.com/shengdinghu). 
 
 ## Contents
 
-- [Introduction](#Introduction)
-- [Papers](#Papers)
-  - [Prompt Designing](#Prompt-Designing)
-  - [Prompt Analysis](#Prompt-Analysis)
-  - [Prompt Application](#prompt-application)
-- [Other Contributors](#Other-Contributors)
+- [PromptPapers](#promptpapers)
+  - [Contents](#contents)
+  - [Introduction](#introduction)
+  - [Papers](#papers)
+    - [Prompt Designing](#prompt-designing)
+    - [Prompt Analysis](#prompt-analysis)
+    - [Prompt Application](#prompt-application)
+  - [Other Contributors](#other-contributors)
 
 
 
@@ -51,19 +53,26 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 
    *Taylor Shin, Yasaman Razeghi, Robert L. Logan IV, Eric Wallace, Sameer Singh.*  [[pdf](https://arxiv.org/pdf/2010.15980.pdf)], [[website](https://ucinlp.github.io/autoprompt/)] **(AutoPrompt)**, 2020.10
 
-7. **Making Pre-trained Language Models Better Few-shot Learners.** ACL 2021. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
+7. **Automatically Identifying Words That Can Serve as Labels for Few-Shot Text Classification.** COLING 2020. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
+
+      *Timo Schick, Helmut Schmid, Hinrich Schütze* [[pdf](https://arxiv.org/pdf/2010.13641.pdf)] [[project](https://github.com/timoschick/pet)]
+
+
+8. **Making Pre-trained Language Models Better Few-shot Learners.** ACL 2021. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
 
    *Tianyu Gao, Adam Fisch, Danqi Chen.*  [[pdf](https://arxiv.org/pdf/2012.15723.pdf)], [[project](https://github.com/princeton-nlp/LM-BFF)]  **(LM-BFF)**, 2020.12
 
-8. **Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference.** EACL 2021. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
 
-   *Timo Schick, Hinrich Schütze.*  [[pdf](https://arxiv.org/pdf/2001.07676.pdf)], [[project](https://github.com/timoschick/pet)] **(PET)**, 2021.1
 
-9. **Prefix-tuning: Optimizing continuous prompts for generation**. Preprint. ![](https://img.shields.io/badge/Continuous-red) ![](https://img.shields.io/badge/Generation-blue)
+9.  **Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference.** EACL 2021. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
+
+      *Timo Schick, Hinrich Schütze.*  [[pdf](https://arxiv.org/pdf/2001.07676.pdf)], [[project](https://github.com/timoschick/pet)] **(PET)**, 2021.1
+
+10. **Prefix-tuning: Optimizing continuous prompts for generation**. Preprint. ![](https://img.shields.io/badge/Continuous-red) ![](https://img.shields.io/badge/Generation-blue)
 
     *Xiang Lisa Li, Percy Liang.* [[pdf](https://arxiv.org/pdf/2101.00190.pdf)], [[project](https://github.com/XiangLi1999/PrefixTuning)], 2021.1
 
-10. **Calibrate Before Use: Improving Few-Shot Performance of Language Models.**  Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
+11. **Calibrate Before Use: Improving Few-Shot Performance of Language Models.**  Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
 
    	*Tony Z. Zhao, Eric Wallace, Shi Feng, Dan Klein, Sameer Singh.*  [[pdf](https://arxiv.org/pdf/2102.09690.pdf)], [[project](https://github.com/tonyzhaozh/few-shot-learning)], 2021.2
 
@@ -111,12 +120,15 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 
    *Fabio Petroni, Tim Rocktaschel, Patrick Lewis, Anton Bakhtin, Yuxiang Wu, Alexander H. Miller, Sebastian Riedel.*  [[pdf](https://arxiv.org/pdf/1909.01066.pdf)], [[project](https://github.com/facebookresearch/LAMA)] **(LAMA)**, 2019.9 
 
+2. **What Makes Good In-Context Examples for GPT-3?**. Preprint. ![](https://img.shields.io/badge/Analysis-green)
 
-2. **How Many Data Points is a Prompt Worth?** NAACL 2021. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
+    *Jiachang Liu, Dinghan Shen, Yizhe Zhang, Bill Dolan, Lawrence Carin, Weizhu Chen*. [[pdf](https://arxiv.org/pdf/2101.06804)] 2021.1
+
+2. **How Many Data Points is a Prompt Worth?** NAACL 2021. Preprint. ![](https://img.shields.io/badge/Analysis-green) ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
 
      *Teven Le Scao, Alexander M. Rush.*  [[pdf](https://arxiv.org/pdf/2103.08493.pdf)], [[project](https://github.com/TevenLeScao/pet)], 2021.3
 
-3. **Surface Form Competition-Why the Highest Probability Answer Isn’t Always Right.** Preprint. 
+3. **Surface Form Competition-Why the Highest Probability Answer Isn’t Always Right.** Preprint. Preprint. ![](https://img.shields.io/badge/Analysis-green)
 
    *Ari Holtzman, Peter West, Vered Schwartz, Yejin Choi, Luke Zettlemoyer.* [[pdf](https://arxiv.org/pdf/2104.08315.pdf)] [[project](https://github.com/peterwestuw/surface-form-competition)], 2021.4
 
@@ -124,13 +136,11 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 
       *Swaroop Mishra, Daniel Khashabi, Chitta Baral, Hannaneh Hajishirzi.* [[pdf](https://arxiv.org/pdf/2104.08773.pdf)] [[project](https://arxiv.org/pdf/2104.08773.pdf)] 2021.4
 
-5. **Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity**. Preprint. 
+5. **Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity**. Preprint. Preprint. ![](https://img.shields.io/badge/Analysis-green)
 
     *Yao Lu, Max Bartolo, Alastair Moore, Sebastian Riedel, Pontus Stenetorp*. [[pdf](https://arxiv.org/pdf/2104.08786.pdf)] 2021.4
 
-6. **What Makes Good In-Context Examples for GPT-3?**. Preprint. 
 
-    *Jiachang Liu, Dinghan Shen, Yizhe Zhang, Bill Dolan, Lawrence Carin, Weizhu Chen*. [[pdf](https://arxiv.org/pdf/2101.06804)] 2021.1
 
 ### Prompt Application
 
@@ -150,4 +160,4 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 
 ## Other Contributors
 
- We thank [Yujia Qin](https://github.com/thuqinyj16) for the paper recommendation. Pull requests and issues are welcomed!
+ We thank [Yujia Qin](https://github.com/thuqinyj16), [Xiachong Feng](https://github.com/xcfcode), [Chenglei Si](https://github.com/NoviScl) for the paper recommendation. Pull requests and issues are welcomed!
