@@ -134,12 +134,15 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 
 4. **Natural Instructions: Benchmarking Generalization to New Tasks from Natural Language Instructions.** Preprint.  ![](https://img.shields.io/badge/Resource-green)
 
-      *Swaroop Mishra, Daniel Khashabi, Chitta Baral, Hannaneh Hajishirzi.* [[pdf](https://arxiv.org/pdf/2104.08773.pdf)] [[project](https://arxiv.org/pdf/2104.08773.pdf)] 2021.4
+      *Swaroop Mishra, Daniel Khashabi, Chitta Baral, Hannaneh Hajishirzi.* [[pdf](https://arxiv.org/pdf/2104.08773.pdf)], [[project](https://arxiv.org/pdf/2104.08773.pdf)] 2021.4
 
-5. **Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity**. Preprint. Preprint. ![](https://img.shields.io/badge/Analysis-green)
+5. **Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity**. Preprint.  ![](https://img.shields.io/badge/Analysis-green)
 
     *Yao Lu, Max Bartolo, Alastair Moore, Sebastian Riedel, Pontus Stenetorp*. [[pdf](https://arxiv.org/pdf/2104.08786.pdf)] 2021.4
 
+6. **True Few-Shot Learning with Language Models**. Preprint. ![](https://img.shields.io/badge/Analysis-green)
+
+    *Ethan Perez, Douwe Kiela, Kyunghyun Cho*. [[pdf](https://arxiv.org/pdf/2105.11447.pdf)], [[project](https://github.com/ethanjperez/true_few_shot)]
 
 
 ### Prompt Application
