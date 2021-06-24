@@ -41,23 +41,19 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 
    *Zhengbao Jiang, Frank F. Xu, Jun Araki, Graham Neubig*.  [[pdf](https://arxiv.org/pdf/1911.12543.pdf)], [[project](https://github.com/jzbjyb/LPAQA)], 2019.11
 
-4. **Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference.** EACL 2021. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
-
-     *Timo Schick, Hinrich Schütze.*  [[pdf](https://arxiv.org/pdf/2001.07676.pdf)], [[project](https://github.com/timoschick/pet)] **(PET)**, 2020.1
-
-5. **Language Models are Few-shot Learners.** NeurIPS 2020. ![](https://img.shields.io/badge/Discrete-red)
+4. **Language Models are Few-shot Learners.** NeurIPS 2020. ![](https://img.shields.io/badge/Discrete-red)
 
    *Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei.*   [[pdf](https://arxiv.org/abs/2005.14165)], [[website](https://openai.com/blog/gpt-3-apps/)]  **(GPT-3)**, 2020.5
 
-6. **It’s Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners.** NAACL 2021. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
+5. **It’s Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners.** NAACL 2021. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
 
    *Timo Schick, Hinrich Schütze.* [[pdf](https://arxiv.org/pdf/2009.07118.pdf)], [[project](https://github.com/timoschick/pet)], 2020.9
 
-7. **Autoprompt: Eliciting knowledge from language models with automatically generated prompts.** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue) ![](https://img.shields.io/badge/Probing-blue)
+6. **Autoprompt: Eliciting knowledge from language models with automatically generated prompts.** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue) ![](https://img.shields.io/badge/Probing-blue)
 
    *Taylor Shin, Yasaman Razeghi, Robert L. Logan IV, Eric Wallace, Sameer Singh.*  [[pdf](https://arxiv.org/pdf/2010.15980.pdf)], [[website](https://ucinlp.github.io/autoprompt/)] **(AutoPrompt)**, 2020.10
 
-8. **Automatically Identifying Words That Can Serve as Labels for Few-Shot Text Classification.** COLING 2020. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
+7. **Automatically Identifying Words That Can Serve as Labels for Few-Shot Text Classification.** COLING 2020. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
 
       *Timo Schick, Helmut Schmid, Hinrich Schütze* [[pdf](https://arxiv.org/pdf/2010.13641.pdf)], [[project](https://github.com/timoschick/pet)], 2020.12
 
@@ -65,7 +61,6 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 8. **Making Pre-trained Language Models Better Few-shot Learners.** ACL 2021. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
 
    *Tianyu Gao, Adam Fisch, Danqi Chen.*  [[pdf](https://arxiv.org/pdf/2012.15723.pdf)], [[project](https://github.com/princeton-nlp/LM-BFF)]  **(LM-BFF)**, 2020.12
-
 
 
 9.  **Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference.** EACL 2021. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
