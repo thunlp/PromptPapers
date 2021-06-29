@@ -117,6 +117,9 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 
         *Xu Han, Weilin Zhao, Ning Ding, Zhiyuan Liu, Maosong Sun.*  [[pdf](https://arxiv.org/pdf/2105.11259.pdf)] **(PTR)**, 2021.5
 
+19.    **Cutting Down on Prompts and Parameters: Simple Few-Shot Learning with Language Models.** Preprint. 
+
+        *Robert L. Logan IV, Ivana Balažević, Eric Wallace, Fabio Petroni, Sameer Singh, Sebastian Riedel*.   [[pdf](https://arxiv.org/pdf/2106.13353)], 2021.6
 
 ### Prompt Analysis
 
