@@ -78,11 +78,11 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 
 11.    **WARP: Word-level Adversarial ReProgramming.**  ACL 2021. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
      
- *Karen Hambardzumyan, Hrant Khachatrian, Jonathan May.*  [[pdf](https://arxiv.org/pdf/2101.00121.pdf)],  [[project](https://github.com/YerevaNN/WARP)], 2021.1
+       *Karen Hambardzumyan, Hrant Khachatrian, Jonathan May.*  [[pdf](https://arxiv.org/pdf/2101.00121.pdf)],  [[project](https://github.com/YerevaNN/WARP)], 2021.1
      
 12.    **Calibrate Before Use: Improving Few-Shot Performance of Language Models.**  Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
      
-   *Tony Z. Zhao, Eric Wallace, Shi Feng, Dan Klein, Sameer Singh.*  [[pdf](https://arxiv.org/pdf/2102.09690.pdf)], [[project](https://github.com/tonyzhaozh/few-shot-learning)], 2021.2
+       *Tony Z. Zhao, Eric Wallace, Shi Feng, Dan Klein, Sameer Singh.*  [[pdf](https://arxiv.org/pdf/2102.09690.pdf)], [[project](https://github.com/tonyzhaozh/few-shot-learning)], 2021.2
 
 13. **Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm.**  Preprint. ![](https://img.shields.io/badge/Discrete-red)
 
