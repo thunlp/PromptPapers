@@ -176,4 +176,4 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 
 ## Other Contributors
 
- We thank [Yujia Qin](https://github.com/thuqinyj16), [Xiachong Feng](https://github.com/xcfcode), [Chenglei Si](https://github.com/NoviScl) for the paper recommendation. Pull requests and issues are welcomed!
+ We thank [Yujia Qin](https://github.com/thuqinyj16), [Xiachong Feng](https://github.com/xcfcode), [Chenglei Si](https://github.com/NoviScl) , [Tianbao Xie](https://github.com/Timothyxxx)for the paper recommendation. Pull requests and issues are welcomed!
