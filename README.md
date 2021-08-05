@@ -1,7 +1,7 @@
 # PromptPapers
 
 
-![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-32-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
+![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-34-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
 
 Must-read papers on prompt-based tuning for pre-trained language models. The paper list is mainly mantained by [Ning Ding](https://github.com/ningding97) and [Shengding Hu](https://github.com/shengdinghu). 
 
@@ -11,6 +11,7 @@ Must-read papers on prompt-based tuning for pre-trained language models. The pap
   - [Contents](#contents)
   - [Introduction](#introduction)
   - [Papers](#papers)
+    - [Survey](#survey)
     - [Prompt Designing](#prompt-designing)
     - [Prompt Analysis](#prompt-analysis)
     - [Prompt Application](#prompt-application)
@@ -30,7 +31,7 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 
 1. **Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing.**  Preprint.
 
-   *Liu, Pengfei, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, and Graham Neubig.*  [[pdf](https://arxiv.org/pdf/2107.13586)], 2021.7
+   *Liu, Pengfei, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, and Graham Neubig.*  [[pdf](https://arxiv.org/pdf/2107.13586)] [[project](http://pretrain.nlpedia.ai)], 2021.7
 
 
 ### Prompt Designing
@@ -132,6 +133,9 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 22.  **WARP: Word-level Adversarial ReProgramming.**  ACL 2021. ![](https://img.shields.io/badge/Continuous-red) ![](https://img.shields.io/badge/Classification-blue)
 
       *Karen Hambardzumyan, Hrant Khachatrian, Jonathan May.*  [[pdf](https://arxiv.org/pdf/2101.00121.pdf)], [[project](https://github.com/YerevaNN/WARP)], 2021.6
+
+23.  **Knowledgeable Prompt-tuning: Incorporating Knowledge into Prompt Verbalizer for Text Classification.** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
+         *Shengding Hu, Ning Ding, Huadong Wang, Zhiyuan Liu, Juanzi Li, Maosong Sun*. [[pdf](https://arxiv.org/abs/2108.02035)], 2021.8
 
 ### Prompt Analysis
 
