@@ -135,7 +135,8 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
       *Karen Hambardzumyan, Hrant Khachatrian, Jonathan May.*  [[pdf](https://arxiv.org/pdf/2101.00121.pdf)], [[project](https://github.com/YerevaNN/WARP)], 2021.6
 
 23.  **Knowledgeable Prompt-tuning: Incorporating Knowledge into Prompt Verbalizer for Text Classification.** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
-         *Shengding Hu, Ning Ding, Huadong Wang, Zhiyuan Liu, Juanzi Li, Maosong Sun*. [[pdf](https://arxiv.org/abs/2108.02035)], 2021.8
+         
+      *Shengding Hu, Ning Ding, Huadong Wang, Zhiyuan Liu, Juanzi Li, Maosong Sun*. [[pdf](https://arxiv.org/abs/2108.02035)], 2021.8
 
 ### Prompt Analysis
 
