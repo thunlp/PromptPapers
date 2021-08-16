@@ -1,7 +1,7 @@
 # PromptPapers
 
 
-![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-34-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
+![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-36-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
 
 Must-read papers on prompt-based tuning for pre-trained language models. The paper list is mainly mantained by [Ning Ding](https://github.com/ningding97) and [Shengding Hu](https://github.com/shengdinghu). 
 
@@ -138,6 +138,9 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
          
       *Shengding Hu, Ning Ding, Huadong Wang, Zhiyuan Liu, Juanzi Li, Maosong Sun*. [[pdf](https://arxiv.org/abs/2108.02035)], 2021.8
 
+24.  **Noisy Channel Language Model Prompting for Few-Shot Text Classiﬁcation.** Preprint. ![](https://img.shields.io/badge/Classification-blue)
+      *Sewon Min, Mike Lewis, Hannaneh Hajishirzi, Luke Zettlemoyer.*  [[pdf](https://arxiv.org/abs/2108.04106)], 2021.8
+
 ### Prompt Analysis
 
 1. **Language Models as Knowledge Bases?** EMNLP 2019.  ![](https://img.shields.io/badge/Resource-green) ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Probing-blue)
@@ -164,9 +167,13 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 
     *Yao Lu, Max Bartolo, Alastair Moore, Sebastian Riedel, Pontus Stenetorp*. [[pdf](https://arxiv.org/pdf/2104.08786.pdf)] 2021.4
 
-7. **True Few-Shot Learning with Language Models**. Preprint. ![](https://img.shields.io/badge/Analysis-green)
+7. **Meta-tuning Language Models to Answer Prompts Better.** Preprint. ![](https://img.shields.io/badge/Analysis-green)
+   *Ruiqi Zhong, Kristy Lee\*, Zheng Zhang\*, Dan Klein*. [[pdf](https://arxiv.org/abs/2104.04670.pdf)] 2021.4
+
+8. **True Few-Shot Learning with Language Models**. Preprint. ![](https://img.shields.io/badge/Analysis-green)
 
     *Ethan Perez, Douwe Kiela, Kyunghyun Cho*. [[pdf](https://arxiv.org/pdf/2105.11447.pdf)], [[project](https://github.com/ethanjperez/true_few_shot)] 2021.5
+
 
 
 ### Prompt Application
