@@ -139,6 +139,7 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
       *Shengding Hu, Ning Ding, Huadong Wang, Zhiyuan Liu, Juanzi Li, Maosong Sun*. [[pdf](https://arxiv.org/abs/2108.02035)], 2021.8
 
 24.  **Noisy Channel Language Model Prompting for Few-Shot Text Classiﬁcation.** Preprint. ![](https://img.shields.io/badge/Classification-blue)
+
       *Sewon Min, Mike Lewis, Hannaneh Hajishirzi, Luke Zettlemoyer.*  [[pdf](https://arxiv.org/abs/2108.04106)], 2021.8
 
 ### Prompt Analysis
@@ -168,6 +169,7 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
     *Yao Lu, Max Bartolo, Alastair Moore, Sebastian Riedel, Pontus Stenetorp*. [[pdf](https://arxiv.org/pdf/2104.08786.pdf)] 2021.4
 
 7. **Meta-tuning Language Models to Answer Prompts Better.** Preprint. ![](https://img.shields.io/badge/Analysis-green)
+   
    *Ruiqi Zhong, Kristy Lee\*, Zheng Zhang\*, Dan Klein*. [[pdf](https://arxiv.org/abs/2104.04670.pdf)] 2021.4
 
 8. **True Few-Shot Learning with Language Models**. Preprint. ![](https://img.shields.io/badge/Analysis-green)
