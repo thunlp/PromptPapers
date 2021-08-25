@@ -1,7 +1,7 @@
 # PromptPapers
 
 
-![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-36-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
+![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-37-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
 
 Must-read papers on prompt-based tuning for pre-trained language models. The paper list is mainly mantained by [Ning Ding](https://github.com/ningding97) and [Shengding Hu](https://github.com/shengdinghu). 
 
@@ -194,7 +194,7 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 
 4. **Prompt-Learning for Fine-grained Entity Typing** Preprint. ![](https://img.shields.io/badge/EntityTyping-blue)
     
-     *Ning Ding, Yulin Chen, Xu Han, Guangwei Xu, Pengjun Xie, Hai-Tao Zheng, Zhiyuan Liu, Juanzi Li, Hong-Gee Kim* [[pdf](https://arxiv.org/pdf/2108.10604.pdf)]
+     *Ning Ding, Yulin Chen, Xu Han, Guangwei Xu, Pengjun Xie, Hai-Tao Zheng, Zhiyuan Liu, Juanzi Li, Hong-Gee Kim* [[pdf](https://arxiv.org/pdf/2108.10604.pdf)] 2021.8
 
 
 
