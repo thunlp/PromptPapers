@@ -192,6 +192,10 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 
      *Eyal Ben-David, Nadav Oved, Roi Reichart.* [[pdf](https://arxiv.org/pdf/2102.12206)][[project](https://github.com/eyalbd2/PADA)] 2021.5
 
+4. **Prompt-Learning for Fine-grained Entity Typing** Preprint. ![](https://img.shields.io/badge/EntityTyping-blue)
+    
+     *Ning Ding, Yulin Chen, Xu Han, Guangwei Xu, Pengjun Xie, Hai-Tao Zheng, Zhiyuan Liu, Juanzi Li, Hong-Gee Kim* [[pdf](https://arxiv.org/pdf/2108.10604.pdf)]
+
 
 
 
