@@ -80,7 +80,7 @@ This is a paper list about *prompt-based tuning* for large-scale pre-trained lan
 
       *Timo Schick, Hinrich Schütze.*  [[pdf](https://arxiv.org/pdf/2001.07676.pdf)], [[project](https://github.com/timoschick/pet)] **(PET)**, 2021.1
 
-11.  **Prefix-tuning: Optimizing continuous prompts for generation**. Preprint. ![](https://img.shields.io/badge/Continuous-red) ![](https://img.shields.io/badge/Generation-blue)
+11.  **Prefix-tuning: Optimizing continuous prompts for generation**. ACL 2021. ![](https://img.shields.io/badge/Continuous-red) ![](https://img.shields.io/badge/Generation-blue)
 
       *Xiang Lisa Li, Percy Liang.* [[pdf](https://arxiv.org/pdf/2101.00190.pdf)], [[project](https://github.com/XiangLi1999/PrefixTuning)], 2021.1
 
