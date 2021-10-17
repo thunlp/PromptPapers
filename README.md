@@ -1,201 +1,321 @@
 # PromptPapers
 
 
-![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-37-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
+![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-57-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
 
 Update: We have released an open-source prompt-learning toolkit, check out [OpenPrompt](https://github.com/thunlp/OpenPrompt)!
 
 Must-read papers on prompt-based tuning for pre-trained language models. The paper list is mainly mantained by [Ning Ding](https://github.com/ningding97) and [Shengding Hu](https://github.com/shengdinghu). 
 
+**We strongly encourage the researchers that want to promote their fantastic work to the community to make pull request to update their paper's information!**
+
+<!-- omit in toc -->
+## Introduction
+
+This is a paper list about **prompt-based tuning** for large-scale pre-trained language models. Different from traditional fine-tuning that uses an explicit classifier, prompt-based tuning directly uses the pre-trained models to conduct the pre-training tasks for classification or regression. 
+
+**Keywords Convention**
+
+![](https://img.shields.io/badge/T5-blue) The abbreviation of the work.
+
+![](https://img.shields.io/badge/Continous_Template-red) The key features in terms of prompt learning used in the work.
+
+![](https://img.shields.io/badge/Generation-brown) The mainly explored task of the work.
+
+![](https://img.shields.io/badge/Analysis-green) The main explored property of prompt learning methods in the work.
+
+
+
+
+<!-- omit in toc -->
 ## Contents
 
 - [PromptPapers](#promptpapers)
-  - [Contents](#contents)
-  - [Introduction](#introduction)
-  - [Papers](#papers)
-    - [Survey](#survey)
-    - [Prompt Designing](#prompt-designing)
-    - [Prompt Analysis](#prompt-analysis)
-    - [Prompt Application](#prompt-application)
-  - [Other Contributors](#other-contributors)
+  - [Overview(Survey)](#overviewsurvey)
+  - [Pilot Work](#pilot-work)
+  - [Basics](#basics)
+  - [Analysis](#analysis)
+  - [Improvements](#improvements)
+  - [Specializations](#specializations)
+  - [Engineering](#engineering)
 
 
+## Overview(Survey)
+This section contains the papers that overview the general trends in recent natural language processing with big (pretrained) models. 
+1. **Pre-Trained Models: Past, Present and Future.** Preprint.
 
-## Introduction
+   *Xu Han, Zhengyan Zhang, Ning Ding, Yuxian Gu, Xiao Liu, Yuqi Huo, Jiezhong Qiu, Yuan Yao, Ao Zhang, Liang Zhang, Wentao Han, Minlie Huang, Qin Jin, Yanyan Lan, Yang Liu, Zhiyuan Liu, Zhiwu Lu, Xipeng Qiu, Ruihua Song, Jie Tang, Ji-Rong Wen, Jinhui Yuan, Wayne Xin Zhao, Jun Zhu.* [[pdf](https://arxiv.org/abs/2106.07139)], 2021.6
 
-This is a paper list about *prompt-based tuning* for large-scale pre-trained language models. Different from traditional fine-tuning that uses an explicit classifier, prompt-based tuning directly uses the pre-trained models to conduct the pre-training tasks for classification or regression. 
+2. **Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing.**  Preprint.
 
+   *Liu, Pengfei, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, and Graham Neubig.*  [[pdf](https://arxiv.org/abs/2107.13586)] [[project](http://pretrain.nlpedia.ai)], 2021.7
 
-
-## Papers
-
-### Survey
-
-1. **Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing.**  Preprint.
-
-   *Liu, Pengfei, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, and Graham Neubig.*  [[pdf](https://arxiv.org/pdf/2107.13586)] [[project](http://pretrain.nlpedia.ai)], 2021.7
+3. **Paradigm Shift in Natural Language Processing.** Preprint.
+   
+   *Tianxiang Sun, Xiangyang Liu, Xipeng Qiu, Xuanjing Huang* [[pdf](https://arxiv.org/abs/2109.12575)], 2021.9
 
 
-### Prompt Designing
-
-1. **Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer.**  JMLR.  ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Seq2seq-blue)
-
-   *Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu.* [[pdf](https://arxiv.org/pdf/1910.10683.pdf)], [[project](https://github.com/google-research/text-to-text-transfer-transformer)], **(T5)**.  2019.10. 
-
-2. **Parameter-Efficient Transfer Learning for NLP.** ICML 2019. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
+   
+## Pilot Work
+This section contains the pilot works that might contributes to the prevalence of prompt learning paradigm.
+1. **Parameter-Efficient Transfer Learning for NLP.** ICML 2019. ![](https://img.shields.io/badge/Adapter-blue) 
 
    *Neil Houlsby, Andrei Giurgiu, Stanislaw Jastrzebski, Bruna Morrone, Quentin de Laroussilhe, Andrea Gesmundo, Mona Attariyan, Sylvain Gelly*.  [[pdf](http://proceedings.mlr.press/v97/houlsby19a/houlsby19a.pdf)], [[project](https://github.com/google-research/adapter-bert)],  2019.6
 
+2.  **Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer.** JMLR.  ![](https://img.shields.io/badge/T5-blue) ![](https://img.shields.io/badge/Seq2Seq-red)
+   *Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu.* [[pdf](https://arxiv.org/abs/1910.10683)], [[project](https://github.com/google-research/text-to-text-transfer-transformer)].  2019.10. 
 
-3. **How Can We Know What Language Models Know?** TACL 2020. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Probing-blue)
 
-   *Zhengbao Jiang, Frank F. Xu, Jun Araki, Graham Neubig*.  [[pdf](https://arxiv.org/pdf/1911.12543.pdf)], [[project](https://github.com/jzbjyb/LPAQA)], 2019.11
 
-4. **Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference.** EACL 2021. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
+3. **Language Models as Knowledge Bases?** EMNLP 2019. ![](https://img.shields.io/badge/LAMA-blue)  ![](https://img.shields.io/badge/Probing-brown) ![](https://img.shields.io/badge/Discrete_Template-red) 
 
-     *Timo Schick, Hinrich Schütze.*  [[pdf](https://arxiv.org/pdf/2001.07676.pdf)], [[project](https://github.com/timoschick/pet)] **(PET)**, 2020.1
+   *Fabio Petroni, Tim Rocktaschel, Patrick Lewis, Anton Bakhtin, Yuxiang Wu, Alexander H. Miller, Sebastian Riedel.*  [[pdf](https://arxiv.org/abs/1909.01066)], [[project](https://github.com/facebookresearch/LAMA)] , 2019.9 
 
-5. **Language Models are Few-shot Learners.** NeurIPS 2020. ![](https://img.shields.io/badge/Discrete-red)
+4.  **How Can We Know What Language Models Know?** TACL 2020. ![](https://img.shields.io/badge/Probing-brown) ![](https://img.shields.io/badge/Discrete_Template-red) 
+   
+    *Zhengbao Jiang, Frank F. Xu, Jun Araki, Graham Neubig*.  [[pdf](https://arxiv.org/abs/1911.12543)], [[project](https://github.com/jzbjyb/LPAQA)], 2019.11
+
+
+5. **Language Models are Few-shot Learners.** NeurIPS 2020. ![](https://img.shields.io/badge/GPT3-blue) ![](https://img.shields.io/badge/Discrete_Template-red) 
 
    *Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei.*   [[pdf](https://arxiv.org/abs/2005.14165)], [[website](https://openai.com/blog/gpt-3-apps/)]  **(GPT-3)**, 2020.5
 
-6. **It’s Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners.** NAACL 2021. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
-
-   *Timo Schick, Hinrich Schütze.* [[pdf](https://arxiv.org/pdf/2009.07118.pdf)], [[project](https://github.com/timoschick/pet)], 2020.9
-
-7. **Autoprompt: Eliciting knowledge from language models with automatically generated prompts.** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue) ![](https://img.shields.io/badge/Probing-blue)
-
-   *Taylor Shin, Yasaman Razeghi, Robert L. Logan IV, Eric Wallace, Sameer Singh.*  [[pdf](https://arxiv.org/pdf/2010.15980.pdf)], [[website](https://ucinlp.github.io/autoprompt/)] **(AutoPrompt)**, 2020.10
-
-8. **Automatically Identifying Words That Can Serve as Labels for Few-Shot Text Classification.** COLING 2020. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
-
-      *Timo Schick, Helmut Schmid, Hinrich Schütze* [[pdf](https://arxiv.org/pdf/2010.13641.pdf)], [[project](https://github.com/timoschick/pet)], 2020.12
 
 
-9. **Making Pre-trained Language Models Better Few-shot Learners.** ACL 2021. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
+## Basics
+This section contains the exploration on the basic aspects of prompt tuning, such as
+template, verbalizer, training paradigms, etc.
 
-   *Tianyu Gao, Adam Fisch, Danqi Chen.*  [[pdf](https://arxiv.org/pdf/2012.15723.pdf)], [[project](https://github.com/princeton-nlp/LM-BFF)]  **(LM-BFF)**, 2020.12
-
-
-11.  **Prefix-tuning: Optimizing continuous prompts for generation**. ACL 2021. ![](https://img.shields.io/badge/Continuous-red) ![](https://img.shields.io/badge/Generation-blue)
-
-      *Xiang Lisa Li, Percy Liang.* [[pdf](https://arxiv.org/pdf/2101.00190.pdf)], [[project](https://github.com/XiangLi1999/PrefixTuning)], 2021.1
-
-12.  **Calibrate Before Use: Improving Few-Shot Performance of Language Models.**  Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
-
-     *Tony Z. Zhao, Eric Wallace, Shi Feng, Dan Klein, Sameer Singh.*  [[pdf](https://arxiv.org/pdf/2102.09690.pdf)], [[project](https://github.com/tonyzhaozh/few-shot-learning)], 2021.2
+1. **Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference.** EACL 2021. ![](https://img.shields.io/badge/PET-blue) ![](https://img.shields.io/badge/Discrete_Template-red) 
+   
+    *Timo Schick, Hinrich Schütze.*  [[pdf](https://arxiv.org/abs/2001.07676)], [[project](https://github.com/timoschick/pet)], 2020.1
 
 
-13. **Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm.**  Preprint. ![](https://img.shields.io/badge/Discrete-red)
+2. **It’s Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners.** NAACL 2021. ![](https://img.shields.io/badge/PET_Extension-blue) ![](https://img.shields.io/badge/Discrete_Template-red) 
 
-       *Laria Reynolds, Kyle McDonell.*  [[pdf](https://arxiv.org/pdf/2102.07350)], 2021.2
+   *Timo Schick, Hinrich Schütze.* [[pdf](https://arxiv.org/abs/2009.07118)], [[project](https://github.com/timoschick/pet)], 2020.9
 
-14.    **Improving and Simplifying Pattern Exploiting Training.** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
+3. **Autoprompt: Eliciting knowledge from language models with automatically generated prompts.** Preprint. ![](https://img.shields.io/badge/AutoPrompt-blue) ![](https://img.shields.io/badge/Discrete_Template-red)
+
+   *Taylor Shin, Yasaman Razeghi, Robert L. Logan IV, Eric Wallace, Sameer Singh.*  [[pdf](https://arxiv.org/abs/2010.15980)], [[website](https://ucinlp.github.io/autoprompt/)], 2020.10
+
+4. **Automatically Identifying Words That Can Serve as Labels for Few-Shot Text Classification.** COLING 2020. ![](https://img.shields.io/badge/PETAL-blue) ![](https://img.shields.io/badge/Verbalizer-red)
+
+    *Timo Schick, Helmut Schmid, Hinrich Schütze.* [[pdf](https://arxiv.org/abs/2010.13641)], [[project](https://github.com/timoschick/pet)], 2020.12
+
+5. **Making Pre-trained Language Models Better Few-shot Learners.** ACL 2021. ![](https://img.shields.io/badge/LMBFF-blue) ![](https://img.shields.io/badge/Discrete_Template-red)
+
+   *Tianyu Gao, Adam Fisch, Danqi Chen.*  [[pdf](https://arxiv.org/abs/2012.15723)], [[project](https://github.com/princeton-nlp/LM-BFF)], 2020.12
 
 
-       *Derek Tam, Rakesh R Menon, Mohit Bansal, Shashank Srivastava, Colin Raffel.* [[pdf]](https://arxiv.org/pdf/2103.11955.pdf), 2021.3
+6.  **Prefix-tuning: Optimizing continuous prompts for generation**. ACL 2021. ![](https://img.shields.io/badge/Prefix_Tuning-blue) ![](https://img.shields.io/badge/Continuous_Template-red) ![](https://img.shields.io/badge/Generation-brown)
 
-15.    **GPT understands, too.** Preprint. ![](https://img.shields.io/badge/Continuous-red) ![](https://img.shields.io/badge/Probing-blue) ![](https://img.shields.io/badge/Classification-blue)
+      *Xiang Lisa Li, Percy Liang.* [[pdf](https://arxiv.org/abs/2101.00190)], [[project](https://github.com/XiangLi1999/PrefixTuning)], 2021.1
 
-       *Xiao Liu, Yanan Zheng, Zhengxiao Du, Ming Ding, Yujie Qian, Zhilin Yang, Jie Tang*.  [[pdf](https://arxiv.org/pdf/2103.10385.pdf)], [[project](https://github.com/THUDM/P-tuning)] **(P-tuning)**, 2021.3
 
-16.    **The Power of Scale for Parameter-Efﬁcient Prompt Tuning.** Preprint. ![](https://img.shields.io/badge/Continuous-red) ![](https://img.shields.io/badge/Classification-blue)
-
-       *Brian Lester, Rami Al-Rfou, Noah Constant*. [[pdf](https://arxiv.org/pdf/2104.08691.pdf)], [[implementation](https://github.com/kipgparker/soft-prompt-tuning)], 2021.4
-
-17.    **Learning How to Ask: Querying LMs with Mixtures of Soft Prompts.** NAACL 2021. ![](https://img.shields.io/badge/Continuous-red) ![](https://img.shields.io/badge/Classification-blue)
-
-       *Guanghui Qin, Jason Eisner* [[pdf](https://arxiv.org/pdf/2104.06599.pdf)][[project](https://github.com/hiaoxui/soft-prompts)], 2021.4
+7. **Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm.**  Preprint. ![](https://img.shields.io/badge/Discrete_Template-red) ![](https://img.shields.io/badge/Discrete_Template-red)
+   
+      *Laria Reynolds, Kyle McDonell.*  [[pdf](https://arxiv.org/abs/2102.07350)], 2021.2
 
 
 
-18.    **Factual Probing Is [MASK]: Learning vs. Learning to Recall.** NAACL 2021. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Probing-blue)
+8.   **Improving and Simplifying Pattern Exploiting Training.** Preprint. ![](https://img.shields.io/badge/ADAPET-blue) ![](https://img.shields.io/badge/Discrete_Template-red)
 
-       *Zexuan Zhong, Dan Friedman, Danqi Chen.*  [[pdf](https://arxiv.org/pdf/2104.05240.pdf)], [[project](https://github.com/princeton-nlp/OptiPrompt)], 2021.4
+       *Derek Tam, Rakesh R Menon, Mohit Bansal, Shashank Srivastava, Colin Raffel.* [[pdf]](https://arxiv.org/abs/2103.11955), 2021.3
+
+9.    **GPT understands, too.** Preprint. ![](https://img.shields.io/badge/P_tuning-blue) ![](https://img.shields.io/badge/Mix_Template-red) ![](https://img.shields.io/badge/Probing-brown)
+
+       *Xiao Liu, Yanan Zheng, Zhengxiao Du, Ming Ding, Yujie Qian, Zhilin Yang, Jie Tang*.  [[pdf](https://arxiv.org/abs/2103.10385)], [[project](https://github.com/THUDM/P-tuning)], 2021.3
+
+10.    **The Power of Scale for Parameter-Efﬁcient Prompt Tuning.** Preprint. ![](https://img.shields.io/badge/Soft_Prompt-blue) ![](https://img.shields.io/badge/Continous_Template-red) 
+
+       *Brian Lester, Rami Al-Rfou, Noah Constant*. [[pdf](https://arxiv.org/abs/2104.08691)], [[project](https://github.com/kipgparker/soft-prompt-tuning)], 2021.4
+
+11.    **Learning How to Ask: Querying LMs with Mixtures of Soft Prompts.** NAACL 2021. ![](https://img.shields.io/badge/Ensemble-blue) ![](https://img.shields.io/badge/Continous_Template-red) 
+
+       *Guanghui Qin, Jason Eisner.* [[pdf](https://arxiv.org/abs/2104.06599)][[project](https://github.com/hiaoxui/soft-prompts)], 2021.4
 
 
-19.    **AdaPrompt: Adaptive Prompt-based Finetuning for Relation Extraction.** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
 
-       *Xiang Chen, Xin Xie, Ningyu Zhang, Jiahuan Yan, Shumin Deng, Chuanqi Tan, Fei Huang, Luo Si, Huajun Chen*.  [[pdf](https://arxiv.org/pdf/2104.07650.pdf)], 2021.4
+12.    **Factual Probing Is [MASK]: Learning vs. Learning to Recall.** NAACL 2021. ![](https://img.shields.io/badge/OptiPrompt-blue) ![](https://img.shields.io/badge/Continous_Template-red)  ![](https://img.shields.io/badge/Probing-brown)
 
-20.    **PTR: Prompt Tuning with Rules for Text Classification.** Preprint.  ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
-
-        *Xu Han, Weilin Zhao, Ning Ding, Zhiyuan Liu, Maosong Sun.*  [[pdf](https://arxiv.org/pdf/2105.11259.pdf)] **(PTR)**, 2021.5
-
-21.    **Cutting Down on Prompts and Parameters: Simple Few-Shot Learning with Language Models.** Preprint. 
-
-        *Robert L. Logan IV, Ivana Balažević, Eric Wallace, Fabio Petroni, Sameer Singh, Sebastian Riedel*.   [[pdf](https://arxiv.org/pdf/2106.13353)], 2021.6
+       *Zexuan Zhong, Dan Friedman, Danqi Chen.*  [[pdf](https://arxiv.org/abs/2104.05240)], [[project](https://github.com/princeton-nlp/OptiPrompt)], 2021.4
 
 
-22.  **WARP: Word-level Adversarial ReProgramming.**  ACL 2021. ![](https://img.shields.io/badge/Continuous-red) ![](https://img.shields.io/badge/Classification-blue)
 
-      *Karen Hambardzumyan, Hrant Khachatrian, Jonathan May.*  [[pdf](https://arxiv.org/pdf/2101.00121.pdf)], [[project](https://github.com/YerevaNN/WARP)], 2021.6
+13.    **Cutting Down on Prompts and Parameters: Simple Few-Shot Learning with Language Models.** Preprint. ![](https://img.shields.io/badge/null_prompts-blue)
 
-23.  **Knowledgeable Prompt-tuning: Incorporating Knowledge into Prompt Verbalizer for Text Classification.** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
+        *Robert L. Logan IV, Ivana Balažević, Eric Wallace, Fabio Petroni, Sameer Singh, Sebastian Riedel*.   [[pdf](https://arxiv.org/abs/2106.13353)], 2021.6
+
+
+14.  **WARP: Word-level Adversarial ReProgramming.**  ACL 2021. ![](https://img.shields.io/badge/WARP-blue) ![](https://img.shields.io/badge/Continuous_Template-red)
+
+      *Karen Hambardzumyan, Hrant Khachatrian, Jonathan May.*  [[pdf](https://arxiv.org/abs/2101.00121)], [[project](https://github.com/YerevaNN/WARP)], 2021.6
+
+15. **PTR: Prompt Tuning with Rules for Text Classification.** Preprint.  ![](https://img.shields.io/badge/PTR-blue) ![](https://img.shields.io/badge/Discrete_Template-red)
+    
+    *Xu Han, Weilin Zhao, Ning Ding, Zhiyuan Liu, Maosong Sun.*  [[pdf](https://arxiv.org/abs/2105.11259)], 2021.5
+
+
+16. **NSP-BERT: A Prompt-based Zero-Shot Learner Through an Original Pre-training Task —— Next Sentence Prediction**  ![](https://img.shields.io/badge/NSPBERT-blue) ![](https://img.shields.io/badge/Discrete_Template-red)
+    
+    *Yi Sun\*, Yu Zheng\*, Chao Hao, Hangping Qiu*, [[pdf](https://arxiv.org/abs/2109.03564)], [[project](https://github.com/sunyilgdx/NSP-BERT)], 2021.9
+
+
+17. **Finetuned language models are zero-shot learners.** ![](https://img.shields.io/badge/Instruction_Tuning-blue) ![](https://img.shields.io/badge/FLAN-blue) ![](https://img.shields.io/badge/Pretrain_Prompt-red)
+    
+    *ason Wei, Maarten Bosma, Vincent Y. Zhao, Kelvin Guu, Adams Wei Yu, Brian Lester, Nan Du, Andrew M. Dai, Quoc V. Le.* [[pdf](https://arxiv.org/abs/2109.01652)], 2021.9
+
+18. **PPT: Pre-trained Prompt Tuning for Few-shot Learning** ![](https://img.shields.io/badge/PPT-blue) ![](https://img.shields.io/badge/Pretrain_Prompt-red)
+    
+    *Yuxian Gu\*, Xu Han\*, Zhiyuan Liu, Minlie Huang.* [[pdf](https://arxiv.org/abs/2109.04332)], 2021.9
+
+19. **Differentiable Prompt Makes Pre-trained Language Models Better Few-shot Learners.** ![](https://img.shields.io/badge/DART-blue) ![](https://img.shields.io/badge/Continuous_Template-red)
+
+    *Ningyu Zhang, Luoqiu Li, Xiang Chen, Shumin Deng, Zhen Bi, Chuanqi Tan, Fei Huang, Huajun Chen.* [[pdf](https://arxiv.org/abs/2108.13161)], 2021.10
+
+## Analysis
+This section contains the analysis of prompt learning methods, including but not limited to why does prompt learning work, various properties of prompt learning methods, limilation of prompt learning methods.
+1. **What Makes Good In-Context Examples for GPT-3?**. Preprint. ![](https://img.shields.io/badge/Analysis-green)
+
+    *Jiachang Liu, Dinghan Shen, Yizhe Zhang, Bill Dolan, Lawrence Carin, Weizhu Chen*. [[pdf](https://arxiv.org/abs/2101.06804)] 2021.1
+
+2. **How Many Data Points is a Prompt Worth?** NAACL 2021. ![](https://img.shields.io/badge/Analysis-green)
+
+     *Teven Le Scao, Alexander M. Rush.*  [[pdf](https://arxiv.org/abs/2103.08493)], [[project](https://github.com/TevenLeScao/pet)], 2021.3
+
+3. **Surface Form Competition-Why the Highest Probability Answer Isn’t Always Right.** Preprint. Preprint. ![](https://img.shields.io/badge/calibration-green)
+
+   *Ari Holtzman, Peter West, Vered Schwartz, Yejin Choi, Luke Zettlemoyer.* [[pdf](https://arxiv.org/abs/2104.08315)][[project](https://github.com/peterwestuw/surface-form-competition)], 2021.4
+
+4. **Natural Instructions: Benchmarking Generalization to New Tasks from Natural Language Instructions.** Preprint.  
+
+      *Swaroop Mishra, Daniel Khashabi, Chitta Baral, Hannaneh Hajishirzi.* [[pdf](https://arxiv.org/abs/2104.08773)], [[project](https://arxiv.org/abs/2104.08773)], 2021.4
+
+5. **Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity**. Preprint.  ![](https://img.shields.io/badge/Analysis-green)
+
+    *Yao Lu, Max Bartolo, Alastair Moore, Sebastian Riedel, Pontus Stenetorp*. [[pdf](https://arxiv.org/abs/2104.08786)] 2021.4
+
+6. **Meta-tuning Language Models to Answer Prompts Better.** Preprint. ![](https://img.shields.io/badge/meta_tuning-green)
+   
+   *Ruiqi Zhong, Kristy Lee\*, Zheng Zhang\*, Dan Klein*. [[pdf](https://arxiv.org/abs/2104.04670)] 2021.4
+
+7. **True Few-Shot Learning with Language Models**. Preprint. ![](https://img.shields.io/badge/few_shot-green)
+
+    *Ethan Perez, Douwe Kiela, Kyunghyun Cho*. [[pdf](https://arxiv.org/abs/2105.11447)], [[project](https://github.com/ethanjperez/true_few_shot)] 2021.5
+
+8. **Why Do Pretrained Language Models Help in Downstream Tasks? An Analysis of Head and Prompt Tuning**. Preprint. ![](https://img.shields.io/badge/theoretical-green)
+
+      *Colin Wei Sang Michael Xie Tengyu Ma* [[pdf](https://arxiv.org/abs/2106.09226)],  2021.6
+
+9.  **Do Prompt-Based Models Really Understand the Meaning of their Prompts?** Preprint. ![](https://img.shields.io/badge/rethinking-green)
+
+      *Albert Webson, Ellie Pavlick.* [[pdf](https://arxiv.org/abs/2109.01247)], [[project](https://github.com/awebson/prompt_semantics)] 2021.9
+
+10. **Avoiding Inference Heuristics in Few-shot Prompt-based Finetuning.** Preprint.  ![](https://img.shields.io/badge/Sentence_Pair-brown) ![](https://img.shields.io/badge/shortcut-green)
+   
+      *Prasetya Ajie Utama, Nafise Sadat Moosavi, Victor Sanh, Iryna Gurevych.* [[pdf](https://arxiv.org/abs/2109.04144)], 2021.9
+
+11. **Towards a Unified View of Parameter-Efficient Transfer Learning.** Preprint. ![](https://img.shields.io/badge/transfer-green) ![](https://img.shields.io/badge/unify-green)
+    
+     *Junxian He, Chunting Zhou, Xuezhe Ma, Taylor Berg-Kirkpatrick, Graham Neubig.* [[pdf](https://arxiv.org/abs/2110.04366)], 2021.10
+
+## Improvements
+This section contains the improvement of the basic prompt tuning methods, include but not limitedd to using additional resources to improving the performances, making up the shortcomings of previous work or conducting prompt tuning in unsual ways.
+1.  **Calibrate Before Use: Improving Few-Shot Performance of Language Models.**  Preprint. ![](https://img.shields.io/badge/Calibration-green) 
+
+     *Tony Z. Zhao, Eric Wallace, Shi Feng, Dan Klein, Sameer Singh.*  [[pdf](https://arxiv.org/abs/2102.09690)], [[project](https://github.com/tonyzhaozh/few-shot-learning)], 2021.2
+
+2.  **Text Generation with Efficient (Soft) Q-Learning.** Preprint. ![](https://img.shields.io/badge/Template_Generation-red)  ![](https://img.shields.io/badge/RL-green)
+
+      *Han Guo, Bowen Tan, Zhengzhong Liu, Eric P. Xing, Zhiting Hu.* [[pdf](https://arxiv.org/abs/2106.07704)], 2021.6
+
+3.  **Knowledgeable Prompt-tuning: Incorporating Knowledge into Prompt Verbalizer for Text Classification.** Preprint.  ![](https://img.shields.io/badge/KPT-blue) ![](https://img.shields.io/badge/Discrete_Template-red) ![](https://img.shields.io/badge/knowledge-green) 
          
-      *Shengding Hu, Ning Ding, Huadong Wang, Zhiyuan Liu, Juanzi Li, Maosong Sun*. [[pdf](https://arxiv.org/abs/2108.02035)], 2021.8
+      *Shengding Hu, Ning Ding, Huadong Wang, Zhiyuan Liu, Juanzi Li, Maosong Sun*. [[pdf](https://arxiv.org/abs/2108.02035)], [[project](https://github.com/ShengdingHu/KnowledgeablePromptTuning)], 2021.8
 
-24.  **Noisy Channel Language Model Prompting for Few-Shot Text Classiﬁcation.** Preprint. ![](https://img.shields.io/badge/Classification-blue)
+4.  **Noisy Channel Language Model Prompting for Few-Shot Text Classiﬁcation.** Preprint. ![](https://img.shields.io/badge/noisy_channel-green)
 
       *Sewon Min, Mike Lewis, Hannaneh Hajishirzi, Luke Zettlemoyer.*  [[pdf](https://arxiv.org/abs/2108.04106)], 2021.8
 
-### Prompt Analysis
-
-1. **Language Models as Knowledge Bases?** EMNLP 2019.  ![](https://img.shields.io/badge/Resource-green) ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Probing-blue)
-
-   *Fabio Petroni, Tim Rocktaschel, Patrick Lewis, Anton Bakhtin, Yuxiang Wu, Alexander H. Miller, Sebastian Riedel.*  [[pdf](https://arxiv.org/pdf/1909.01066.pdf)], [[project](https://github.com/facebookresearch/LAMA)] **(LAMA)**, 2019.9 
-
-2. **What Makes Good In-Context Examples for GPT-3?**. Preprint. ![](https://img.shields.io/badge/Analysis-green)
-
-    *Jiachang Liu, Dinghan Shen, Yizhe Zhang, Bill Dolan, Lawrence Carin, Weizhu Chen*. [[pdf](https://arxiv.org/pdf/2101.06804)] 2021.1
-
-3. **How Many Data Points is a Prompt Worth?** NAACL 2021. Preprint. ![](https://img.shields.io/badge/Analysis-green) ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Classification-blue)
-
-     *Teven Le Scao, Alexander M. Rush.*  [[pdf](https://arxiv.org/pdf/2103.08493.pdf)], [[project](https://github.com/TevenLeScao/pet)], 2021.3
-
-4. **Surface Form Competition-Why the Highest Probability Answer Isn’t Always Right.** Preprint. Preprint. ![](https://img.shields.io/badge/Analysis-green)
-
-   *Ari Holtzman, Peter West, Vered Schwartz, Yejin Choi, Luke Zettlemoyer.* [[pdf](https://arxiv.org/pdf/2104.08315.pdf)][[project](https://github.com/peterwestuw/surface-form-competition)], 2021.4
-
-5. **Natural Instructions: Benchmarking Generalization to New Tasks from Natural Language Instructions.** Preprint.  ![](https://img.shields.io/badge/Resource-green)
-
-      *Swaroop Mishra, Daniel Khashabi, Chitta Baral, Hannaneh Hajishirzi.* [[pdf](https://arxiv.org/pdf/2104.08773.pdf)], [[project](https://arxiv.org/pdf/2104.08773.pdf)] 2021.4
-
-6. **Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity**. Preprint.  ![](https://img.shields.io/badge/Analysis-green)
-
-    *Yao Lu, Max Bartolo, Alastair Moore, Sebastian Riedel, Pontus Stenetorp*. [[pdf](https://arxiv.org/pdf/2104.08786.pdf)] 2021.4
-
-7. **Meta-tuning Language Models to Answer Prompts Better.** Preprint. ![](https://img.shields.io/badge/Analysis-green)
+5. **Adapting Language Models for Zero-shot Learning by Meta-tuning on Dataset and Prompt Collection.** ![](https://img.shields.io/badge/meta_learning-green)
    
-   *Ruiqi Zhong, Kristy Lee\*, Zheng Zhang\*, Dan Klein*. [[pdf](https://arxiv.org/abs/2104.04670.pdf)] 2021.4
+   *Ruiqi Zhong, Kristy Lee\* Zheng Zhang\*, Dan Klein.* [[pdf](http://nlp.cs.berkeley.edu/pubs/Zhong-Lee-Zhang-Klein_2021_MetaTuning_paper.pdf)], 2021.9
 
-8. **True Few-Shot Learning with Language Models**. Preprint. ![](https://img.shields.io/badge/Analysis-green)
+6. **Revisiting Self-Training for Few-Shot Learning of Language Model.** Preprint. ![](https://img.shields.io/badge/SFLM-blue) ![](https://img.shields.io/badge/Self_Training-green)
+   
+   *Yiming Chen, Yan Zhang, Chen Zhang, Grandee Lee, Ran Cheng, Haizhou Li.* [[pdf](https://arxiv.org/abs/2110.01256)], 2021.10
 
-    *Ethan Perez, Douwe Kiela, Kyunghyun Cho*. [[pdf](https://arxiv.org/pdf/2105.11447.pdf)], [[project](https://github.com/ethanjperez/true_few_shot)] 2021.5
+   
+## Specializations
+This section contains the prompt learning methods designed for various NLP task. 
 
 
+1. **Thinking Aloud: Dynamic Context Generation Improves Zero-Shot Reasoning Performance of GPT-2.** Preprint. ![](https://img.shields.io/badge/Discrete_Template-red) ![](https://img.shields.io/badge/Reasoning-brown)
 
-### Prompt Application
+   *Gregor Betz, Kyle Richardson, Christian Voigt.* [[pdf](https://arxiv.org/abs/2103.13033)] 2021.3
 
-1. **Thinking Aloud: Dynamic Context Generation Improves Zero-Shot Reasoning Performance of GPT-2.** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/Reasoning-blue)
+2. **GPT3Mix: Leveraging Large-scale Language Models for Text Augmentation.** Preprint. ![](https://img.shields.io/badge/GPT3Mix-blue) ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/DataAugmentation-brown)
 
-   *Gregor Betz, Kyle Richardson, Christian Voigt.* [[pdf](https://arxiv.org/pdf/2103.13033.pdf)] 2021.3
+   *Kang Min Yoo, Dongju Park, Jaewook Kang, Sang-Woo Lee, Woomyeong Park.* [[pdf](https://arxiv.org/abs/2104.08826)] 2021.4
 
-2. **GPT3Mix: Leveraging Large-scale Language Models for Text Augmentation.** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/DataAugmentation-blue)
-
-    *Kang Min Yoo, Dongju Park, Jaewook Kang, Sang-Woo Lee, Woomyeong Park.* [[pdf](https://arxiv.org/pdf/2104.08826.pdf)] 2021.4
-
-3. **PADA: A Prompt-based Autoregressive Approach for Adaptation to Unseen Domains** Preprint. ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/DomainAdaptation-blue)
-
-     *Eyal Ben-David, Nadav Oved, Roi Reichart.* [[pdf](https://arxiv.org/pdf/2102.12206)][[project](https://github.com/eyalbd2/PADA)] 2021.5
-
-4. **Prompt-Learning for Fine-grained Entity Typing** Preprint. ![](https://img.shields.io/badge/EntityTyping-blue)
+3. **Constrained Language Models Yield Few-Shot Semantic Parsers.** Preprint. ![](https://img.shields.io/badge/Dynamic_Template-red) ![](https://img.shields.io/badge/Semantic_Parsing-brown) 
     
-     *Ning Ding, Yulin Chen, Xu Han, Guangwei Xu, Pengjun Xie, Hai-Tao Zheng, Zhiyuan Liu, Juanzi Li, Hong-Gee Kim* [[pdf](https://arxiv.org/pdf/2108.10604.pdf)] 2021.8
+   *Richard Shin, Christopher H. Lin, Sam Thomson, Charles Chen, Subhro Roy, Emmanouil Antonios Platanios, Adam Pauls, Dan Klein, Jason Eisner, Benjamin Van Durme.* [[pdf]](https://arxiv.org/abs/2104.08768) 2021.4
+
+4. **Label Verbalization and Entailment for Effective Zero- and Few-Shot Relation Extraction.** EMNLP 2021. ![](https://img.shields.io/badge/Relation_Extraction-brown) 
+   
+   *Oscar Sainz, Oier Lopez de Lacalle, Gorka Labaka, Ander Barrena, Eneko Agirre.* [[pdf](https://arxiv.org/abs/2109.03659)], 2021.4
+   
+
+5. **PADA: A Prompt-based Autoregressive Approach for Adaptation to Unseen Domains** Preprint.![](https://img.shields.io/badge/PADA-blue) ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/DomainAdaptation-brown)
+
+   *Eyal Ben-David, Nadav Oved, Roi Reichart.* [[pdf](https://arxiv.org/abs/2102.12206)][[project](https://github.com/eyalbd2/PADA)] 2021.5
+
+
+
+6. **Prompt-Learning for Fine-grained Entity Typing.** Preprint. ![](https://img.shields.io/badge/PLET-blue) ![](https://img.shields.io/badge/EntityTyping-brown)
+    
+   *Ning Ding, Yulin Chen, Xu Han, Guangwei Xu, Pengjun Xie, Hai-Tao Zheng, Zhiyuan Liu, Juanzi Li, Hong-Gee Kim* [[pdf](https://arxiv.org/abs/2108.10604)],2021.8
+
+7. **KnowPrompt: Knowledge-aware Prompt-tuning with Synergistic Optimization for Relation Extraction.** Preprint. ![](https://img.shields.io/badge/KnowPrompt-blue) ![](https://img.shields.io/badge/Relation_Extraction-brown)
+
+   *Xiang Chen, Xin Xie, Ningyu Zhang, Jiahuan Yan, Shumin Deng, Chuanqi Tan, Fei Huang, Luo Si, Huajun Chen.*.  [[pdf](https://arxiv.org/abs/2104.07650)], 2021.9
+
+
+
+8.  **Exploring Prompt-based Few-shot Learning for Grounded Dialog Generation.** Preprint. ![](https://img.shields.io/badge/dialogue-brown)
+
+      *Chujie Zheng, Minlie Huang.* [[pdf](https://arxiv.org/abs/2109.06513)], 2021.9
+
+9. **SentiPrompt: Sentiment Knowledge Enhanced Prompt-Tuning for Aspect-Based Sentiment Analysis.** Preprint. ![](https://img.shields.io/badge/SentiPrompt-blue) ![](https://img.shields.io/badge/Sentiment_Analysis-brown)
+   
+      *Chengxi Li, Feiyu Gao, Jiajun Bu, Lu Xu, Xiang Chen, Yu Gu, Zirui Shao, Qi Zheng, Ningyu Zhang, Yongpan Wang, Zhi Yu.*  [[pdf](https://arxiv.org/abs/2109.08306)] 2021.9
+
+
+10.  **Template-free Prompt Tuning for Few-shot NER.** Preprint. ![](https://img.shields.io/badge/EntLM-blue) ![](https://img.shields.io/badge/NER-brown)
+    
+      *Ruotian Ma\*, Xin Zhou\*, Tao Gui, Yiding Tan, Qi Zhang, Xuanjing Huang.* [[pdf](https://arxiv.org/abs/2109.13532)], 2021.9
+
+11. **Learning to Prompt for Vision-Language Models.** Preprint. ![](https://img.shields.io/badge/CoOp-blue) ![](https://img.shields.io/badge/Visual_LM-brown) 
+
+      *Kaiyang Zhou, Jingkang Yang, Chen Change Loy, and Ziwei Liu.* [[pdf](https://arxiv.org/abs/2109.01134)], 2021.9
+    
+
+
+12. **CPT: Colorful Prompt Tuning for Pre-trained Vision-Language Models.** Preprint. ![](https://img.shields.io/badge/CPT-blue)![](https://img.shields.io/badge/Visual_Grounding-brown) 
+   
+      *Yuan Yao\*, Ao Zhang\*, Zhengyan Zhang, Zhiyuan Liu, Tat-Seng Chua, Maosong Sun.* [[pdf](https://arxiv.org/abs/2109.11797)], 2021.10
+
+13. **MSP: Multi-Stage Prompting for Making Pre-trained Language Models Better Translators.** Preprint. ![](https://img.shields.io/badge/MSP-blue)![](https://img.shields.io/badge/Machine_Translation-brown) 
+
+      *Zhixing Tan, Xiangwen Zhang, Shuo Wang, Yang Liu.* [[pdf](https://arxiv.org/abs/2110.06609)], 2021.10
+    
 
 
 
 
-## Other Contributors
 
- We thank [Yujia Qin](https://github.com/thuqinyj16), [Xiachong Feng](https://github.com/xcfcode), [Chenglei Si](https://github.com/NoviScl) , [Tianbao Xie](https://github.com/Timothyxxx)for the paper recommendation. Pull requests and issues are welcomed!
+
+## Engineering
+
