@@ -7,40 +7,45 @@ Update: We have released an open-source prompt-learning toolkit, check out [Open
 
 Must-read papers on prompt-based tuning for pre-trained language models. The paper list is mainly mantained by [Ning Ding](https://github.com/ningding97) and [Shengding Hu](https://github.com/shengdinghu). 
 
-**We strongly encourage the researchers that want to promote their fantastic work to the community to make pull request to update their paper's information!**
-
-<!-- omit in toc -->
-## Introduction
-
-This is a paper list about **prompt-based tuning** for large-scale pre-trained language models. Different from traditional fine-tuning that uses an explicit classifier, prompt-based tuning directly uses the pre-trained models to conduct the pre-training tasks for classification or regression. 
-
-**Keywords Convention**
-
-![](https://img.shields.io/badge/T5-blue) The abbreviation of the work.
-
-![](https://img.shields.io/badge/Continous_Template-red) The key features in terms of prompt learning used in the work.
-
-![](https://img.shields.io/badge/Generation-brown) The mainly explored task of the work.
-
-![](https://img.shields.io/badge/Analysis-green) The main explored property of prompt learning methods in the work.
-
-
-
+**We strongly encourage the researchers that want to promote their fantastic work to the community to make pull request to update their paper's information!** (See [contributing details](#contribution))
 
 <!-- omit in toc -->
 ## Contents
 
 - [PromptPapers](#promptpapers)
-  - [Overview(Survey)](#overviewsurvey)
-  - [Pilot Work](#pilot-work)
-  - [Basics](#basics)
-  - [Analysis](#analysis)
-  - [Improvements](#improvements)
-  - [Specializations](#specializations)
-  - [Engineering](#engineering)
+  - [Introduction](#introduction)
+    - [Keywords Convention](#keywords-convention)
+  - [Papers](#papers)
+    - [Overview(Survey)](#overviewsurvey)
+    - [Pilot Work](#pilot-work)
+    - [Basics](#basics)
+    - [Analysis](#analysis)
+    - [Improvements](#improvements)
+    - [Specializations](#specializations)
+  - [Contribution](#contribution)
+    - [Other contributors](#other-contributors)
+    - [Contributing to this paper list](#contributing-to-this-paper-list)
 
 
-## Overview(Survey)
+
+
+## Introduction
+
+This is a paper list about **prompt-based tuning** for large-scale pre-trained language models. Different from traditional fine-tuning that uses an explicit classifier, prompt-based tuning directly uses the pre-trained models to conduct the pre-training tasks for classification or regression. 
+
+### Keywords Convention
+
+![](https://img.shields.io/badge/T5-blue) The abbreviation of the work.
+
+![](https://img.shields.io/badge/Continous_Template-red) The key features in terms of prompt learning used in the work.
+
+![](https://img.shields.io/badge/Generation-brown) The main explored task of the work.
+
+![](https://img.shields.io/badge/Analysis-green) The main explored property of prompt learning methods in the work.
+
+
+## Papers
+### Overview(Survey)
 This section contains the papers that overview the general trends in recent natural language processing with big (pretrained) models. 
 1. **Pre-Trained Models: Past, Present and Future.** Preprint.
 
@@ -56,7 +61,7 @@ This section contains the papers that overview the general trends in recent natu
 
 
    
-## Pilot Work
+### Pilot Work
 This section contains the pilot works that might contributes to the prevalence of prompt learning paradigm.
 1. **Parameter-Efficient Transfer Learning for NLP.** ICML 2019. ![](https://img.shields.io/badge/Adapter-blue) 
 
@@ -78,11 +83,11 @@ This section contains the pilot works that might contributes to the prevalence o
 
 5. **Language Models are Few-shot Learners.** NeurIPS 2020. ![](https://img.shields.io/badge/GPT3-blue) ![](https://img.shields.io/badge/Discrete_Template-red) 
 
-   *Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei.*   [[pdf](https://arxiv.org/abs/2005.14165)], [[website](https://openai.com/blog/gpt-3-apps/)]  **(GPT-3)**, 2020.5
+   *Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei.*   [[pdf](https://arxiv.org/abs/2005.14165)], [[website](https://openai.com/blog/gpt-3-apps/)], 2020.5
 
 
 
-## Basics
+### Basics
 This section contains the exploration on the basic aspects of prompt tuning, such as
 template, verbalizer, training paradigms, etc.
 
@@ -174,7 +179,7 @@ template, verbalizer, training paradigms, etc.
 
     *Ningyu Zhang, Luoqiu Li, Xiang Chen, Shumin Deng, Zhen Bi, Chuanqi Tan, Fei Huang, Huajun Chen.* [[pdf](https://arxiv.org/abs/2108.13161)], 2021.10
 
-## Analysis
+### Analysis
 This section contains the analysis of prompt learning methods, including but not limited to why does prompt learning work, various properties of prompt learning methods, limilation of prompt learning methods.
 1. **What Makes Good In-Context Examples for GPT-3?**. Preprint. ![](https://img.shields.io/badge/Analysis-green)
 
@@ -220,7 +225,7 @@ This section contains the analysis of prompt learning methods, including but not
     
      *Junxian He, Chunting Zhou, Xuezhe Ma, Taylor Berg-Kirkpatrick, Graham Neubig.* [[pdf](https://arxiv.org/abs/2110.04366)], 2021.10
 
-## Improvements
+### Improvements
 This section contains the improvement of the basic prompt tuning methods, include but not limitedd to using additional resources to improving the performances, making up the shortcomings of previous work or conducting prompt tuning in unsual ways.
 1.  **Calibrate Before Use: Improving Few-Shot Performance of Language Models.**  Preprint. ![](https://img.shields.io/badge/Calibration-green) 
 
@@ -247,7 +252,7 @@ This section contains the improvement of the basic prompt tuning methods, includ
    *Yiming Chen, Yan Zhang, Chen Zhang, Grandee Lee, Ran Cheng, Haizhou Li.* [[pdf](https://arxiv.org/abs/2110.01256)], 2021.10
 
    
-## Specializations
+### Specializations
 This section contains the prompt learning methods designed for various NLP task. 
 
 
@@ -312,10 +317,17 @@ This section contains the prompt learning methods designed for various NLP task.
       *Zhixing Tan, Xiangwen Zhang, Shuo Wang, Yang Liu.* [[pdf](https://arxiv.org/abs/2110.06609)], 2021.10
     
 
+## Contribution
+
+### Other contributors 
+We thank [Yujia Qin](https://github.com/thuqinyj16), [Xiachong Feng](https://github.com/xcfcode), [Chenglei Si](https://github.com/NoviScl) , [Tianbao Xie](https://github.com/Timothyxxx) for the paper recommendation.
 
 
-
-
-
-## Engineering
-
+### Contributing to this paper list
+   - First, think about which category the work should belong to. 
+   - Second, use the same format as the others to discribe the work. Note that there should be an empty line between the title and the authors list, and take care of the indentation.
+   - Then, add [keywords tags](#keywords-convention). Add the pdf link of the paper. If it is an arxiv publication, we prefer /abs/ format to /pdf/ format.
+  
+   **Don't worry if you put all these wrong, we will fix them for you.** Just contribute and promote your awesome work here! 
+   
+   If you recommended a work that wasn't yours, you will be added to the contributor list (be sure to provide your information in [other contributors](#other-contributors)).
