@@ -118,7 +118,7 @@ template, verbalizer, training paradigms, etc.
       *Xiang Lisa Li, Percy Liang.* [[pdf](https://arxiv.org/abs/2101.00190)], [[project](https://github.com/XiangLi1999/PrefixTuning)], 2021.1
 
 
-7. **Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm.**  Preprint. ![](https://img.shields.io/badge/Discrete_Template-red) ![](https://img.shields.io/badge/Discrete_Template-red)
+7. **Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm.**  Preprint. ![](https://img.shields.io/badge/Discrete_Template-red)
    
       *Laria Reynolds, Kyle McDonell.*  [[pdf](https://arxiv.org/abs/2102.07350)], 2021.2
 
