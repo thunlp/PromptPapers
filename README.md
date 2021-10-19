@@ -1,7 +1,7 @@
 # PromptPapers
 
 
-![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-57-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
+![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-63-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
 
 Update: We have released an open-source prompt-learning toolkit, check out [OpenPrompt](https://github.com/thunlp/OpenPrompt)!
 
@@ -179,6 +179,11 @@ template, verbalizer, training paradigms, etc.
 
     *Ningyu Zhang, Luoqiu Li, Xiang Chen, Shumin Deng, Zhen Bi, Chuanqi Tan, Fei Huang, Huajun Chen.* [[pdf](https://arxiv.org/abs/2108.13161)], 2021.10
 
+20. **Multitask Prompted Training Enables Zero-Shot Task Generalization.** ![](https://img.shields.io/badge/T0-blue) ![](https://img.shields.io/badge/multitask-green)
+
+    *Victor Sanh, Albert Webson, Colin Raffel, Stephen H. Bach, Lintang Sutawika, Zaid Alyafeai, Antoine Chaffin, Arnaud Stiegler, Teven Le Scao, Arun Raja, Manan Dey, M Saiful Bari, Canwen Xu, Urmish Thakker, Shanya Sharma Sharma, Eliza Szczechla, Taewoon Kim, Gunjan Chhablani, Nihal Nayak, Debajyoti Datta, Jonathan Chang, Mike Tian-Jian Jiang, Han Wang, Matteo Manica, Sheng Shen, Zheng Xin Yong, Harshit Pandey, Rachel Bawden, Thomas Wang, Trishala Neeraj, Jos Rozen, Abheesht Sharma, Andrea Santilli, Thibault Fevry, Jason Alan Fries, Ryan Teehan, Stella Biderman, Leo Gao, Tali Bers, Thomas Wolf, Alexander M. Rush.* [[pdf](https://arxiv.org/abs/2110.08207)], 2021.10
+
+
 ### Analysis
 This section contains the analysis of prompt learning methods, including but not limited to why does prompt learning work, various properties of prompt learning methods, limilation of prompt learning methods.
 1. **What Makes Good In-Context Examples for GPT-3?**. Preprint. ![](https://img.shields.io/badge/Analysis-green)
@@ -224,6 +229,11 @@ This section contains the analysis of prompt learning methods, including but not
 11. **Towards a Unified View of Parameter-Efficient Transfer Learning.** Preprint. ![](https://img.shields.io/badge/transfer-green) ![](https://img.shields.io/badge/unify-green)
     
      *Junxian He, Chunting Zhou, Xuezhe Ma, Taylor Berg-Kirkpatrick, Graham Neubig.* [[pdf](https://arxiv.org/abs/2110.04366)], 2021.10
+
+12. **Exploring Low-dimensional Intrinsic Task Subspace via Prompt Tuning.** Preprint. ![](https://img.shields.io/badge/multitask-green)
+
+     *Yujia Qin, Xiaozhi Wang, Yusheng Su, Yankai Lin, Ning Ding, Zhiyuan Liu, Juanzi Li, Lei Hou,Peng Li, Maosong Sun, Jie Zhou* [[pdf](https://arxiv.org/abs/2110.07867)]
+
 
 ### Improvements
 This section contains the improvement of the basic prompt tuning methods, include but not limitedd to using additional resources to improving the performances, making up the shortcomings of previous work or conducting prompt tuning in unsual ways.
@@ -315,7 +325,25 @@ This section contains the prompt learning methods designed for various NLP task.
 13. **MSP: Multi-Stage Prompting for Making Pre-trained Language Models Better Translators.** Preprint. ![](https://img.shields.io/badge/MSP-blue)![](https://img.shields.io/badge/Machine_Translation-brown) 
 
       *Zhixing Tan, Xiangwen Zhang, Shuo Wang, Yang Liu.* [[pdf](https://arxiv.org/abs/2110.06609)], 2021.10
-    
+
+15. **Few-Shot Bot: Prompt-Based Learning for Dialogue Systems.** Preprint. ![](https://img.shields.io/badge/dialogue-brown)
+
+    *Andrea Madotto, Zhaojiang Lin, Genta Indra Winata, Pascale Fung* [[pdf](https://arxiv.org/abs/2110.08118)], 2021.10
+
+16. **Control Prefixes for Text Generation.** Preprint. ![](https://img.shields.io/badge/Control_Prefixes-blue) ![](https://img.shields.io/badge/Generation-brown) ![](https://img.shields.io/badge/Dynamic_template-red)
+
+      *Jordan Clive, Kris Cao, Marek Rei.* [[pdf](https://arxiv.org/abs/2110.08329)], 2021.10
+
+
+17. **The Power of Prompt Tuning for Low-Resource Semantic Parsing.** Preprint. ![](https://img.shields.io/badge/Semantic_Parsing-brown) 
+
+      *Nathan Schucher, Siva Reddy, Harm de Vries.* [[pdf](https://arxiv.org/abs/2110.08525)], 2021.10
+
+18. **A Good Prompt Is Worth Millions of Parameters? Low-resource Prompt-based Learning for Vision-Language Models.** ![](https://img.shields.io/badge/FewVLM-blue) ![](https://img.shields.io/badge/Visual_LM-brown)
+
+    *Woojeong Jin, Yu Cheng, Yelong Shen, Weizhu Chen, Xiang Ren.* [[pdf](https://arxiv.org/abs/2110.08484)]
+
+
 
 ## Contribution
 
