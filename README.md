@@ -3,14 +3,14 @@
 
 ![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-63-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
 
-Update: We have released an open-source prompt-learning toolkit, check out [OpenPrompt](https://github.com/thunlp/OpenPrompt)!
+We have released an open-source prompt-learning toolkit, check out **[OpenPrompt](https://github.com/thunlp/OpenPrompt)!**
 
-Must-read papers on prompt-based tuning for pre-trained language models. The paper list is mainly mantained by [Ning Ding](https://github.com/ningding97) and [Shengding Hu](https://github.com/shengdinghu). 
-
-**We strongly encourage the researchers that want to promote their fantastic work to the community to make pull request to update their paper's information!** (See [contributing details](#contribution))
+We strongly encourage the researchers that want to promote their fantastic work to the community to make **pull request** to update their paper's information! (See [contributing details](#contribution))
 
 <!-- omit in toc -->
 ## Contents
+
+Must-read papers on prompt-based tuning for pre-trained language models. The paper list is mainly mantained by [Ning Ding](https://github.com/ningding97) and [Shengding Hu](https://github.com/shengdinghu). Watch this repository for the latest updates!
 
 - [PromptPapers](#promptpapers)
   - [Introduction](#introduction)
