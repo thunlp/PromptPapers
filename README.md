@@ -190,6 +190,8 @@ template, verbalizer, training paradigms, etc.
 20. **Multitask Prompted Training Enables Zero-Shot Task Generalization.** ![](https://img.shields.io/badge/T0-blue) ![](https://img.shields.io/badge/multitask-green)
 
     *Victor Sanh, Albert Webson, Colin Raffel, Stephen H. Bach, Lintang Sutawika, Zaid Alyafeai, Antoine Chaffin, Arnaud Stiegler, Teven Le Scao, Arun Raja, Manan Dey, M Saiful Bari, Canwen Xu, Urmish Thakker, Shanya Sharma Sharma, Eliza Szczechla, Taewoon Kim, Gunjan Chhablani, Nihal Nayak, Debajyoti Datta, Jonathan Chang, Mike Tian-Jian Jiang, Han Wang, Matteo Manica, Sheng Shen, Zheng Xin Yong, Harshit Pandey, Rachel Bawden, Thomas Wang, Trishala Neeraj, Jos Rozen, Abheesht Sharma, Andrea Santilli, Thibault Fevry, Jason Alan Fries, Ryan Teehan, Stella Biderman, Leo Gao, Tali Bers, Thomas Wolf, Alexander M. Rush.* [[pdf](https://arxiv.org/abs/2110.08207)], 2021.10
+    
+21. **P-Tuning v2: Prompt Tuning Can Be Comparable to Finetuning Universally Across Scales and Tasks.** [[pdf](https://arxiv.org/abs/2110.07602)], [[project](https://github.com/THUDM/P-tuning-v2)], 2021.10
 
 
 ### Analysis
