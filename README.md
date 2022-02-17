@@ -276,6 +276,10 @@ This section contains the improvement of the basic prompt tuning methods, includ
    
    *Yiming Chen, Yan Zhang, Chen Zhang, Grandee Lee, Ran Cheng, Haizhou Li.* [[pdf](https://arxiv.org/abs/2110.01256)], 2021.10
 
+7. **LiST: Lite Self-training Makes Efficient Few-shot Learners.** Preprint. ![](https://img.shields.io/badge/LiST-blue) ![](https://img.shields.io/badge/Lightweight_Self_Training-green)
+
+   *Yaqing Wang, Subhabrata Mukherjee, Xiaodong Liu, Jing Gao, Ahmed Hassan Awadallah, Jianfeng Gao.* [[pdf](https://arxiv.org/abs/2110.06274)], 2021.10
+
    
 ### Specializations
 This section contains the prompt learning methods designed for various NLP task. 
