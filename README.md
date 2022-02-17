@@ -183,9 +183,9 @@ template, verbalizer, training paradigms, etc.
     
     *Yuxian Gu\*, Xu Han\*, Zhiyuan Liu, Minlie Huang.* [[pdf](https://arxiv.org/abs/2109.04332)], 2021.9
 
-19. **Differentiable Prompt Makes Pre-trained Language Models Better Few-shot Learners.** ![](https://img.shields.io/badge/DART-blue) ![](https://img.shields.io/badge/Continuous_Template-red)
+19. **Differentiable Prompt Makes Pre-trained Language Models Better Few-shot Learners.** ICLR 2022. ![](https://img.shields.io/badge/DART-blue) ![](https://img.shields.io/badge/Continuous_Template-red)
 
-    *Ningyu Zhang, Luoqiu Li, Xiang Chen, Shumin Deng, Zhen Bi, Chuanqi Tan, Fei Huang, Huajun Chen.* [[pdf](https://arxiv.org/abs/2108.13161)], 2021.10
+    *Ningyu Zhang, Luoqiu Li, Xiang Chen, Shumin Deng, Zhen Bi, Chuanqi Tan, Fei Huang, Huajun Chen.* [[pdf](https://arxiv.org/abs/2108.13161)], [[project](https://github.com/zjunlp/DART)], 2021.10
 
 20. **Multitask Prompted Training Enables Zero-Shot Task Generalization.** ![](https://img.shields.io/badge/T0-blue) ![](https://img.shields.io/badge/multitask-green)
 
@@ -305,12 +305,10 @@ This section contains the prompt learning methods designed for various NLP task.
     
    *Ning Ding, Yulin Chen, Xu Han, Guangwei Xu, Pengjun Xie, Hai-Tao Zheng, Zhiyuan Liu, Juanzi Li, Hong-Gee Kim* [[pdf](https://arxiv.org/abs/2108.10604)],2021.8
 
-7. **KnowPrompt: Knowledge-aware Prompt-tuning with Synergistic Optimization for Relation Extraction.** Preprint. ![](https://img.shields.io/badge/KnowPrompt-blue) ![](https://img.shields.io/badge/Relation_Extraction-brown)
+7. **KnowPrompt: Knowledge-aware Prompt-tuning with Synergistic Optimization for Relation Extraction.** WWW 2022. ![](https://img.shields.io/badge/KnowPrompt-blue) ![](https://img.shields.io/badge/Relation_Extraction-brown)
 
-   *Xiang Chen, Xin Xie, Ningyu Zhang, Jiahuan Yan, Shumin Deng, Chuanqi Tan, Fei Huang, Luo Si, Huajun Chen.*.  [[pdf](https://arxiv.org/abs/2104.07650)], 2021.9
-
-
-
+   *Xiang Chen, Xin Xie, Ningyu Zhang, Jiahuan Yan, Shumin Deng, Chuanqi Tan, Fei Huang, Luo Si, Huajun Chen.*.  [[pdf](https://arxiv.org/abs/2104.07650)], [[project](https://github.com/zjunlp/KnowPrompt)], 2021.9
+   
 8.  **Exploring Prompt-based Few-shot Learning for Grounded Dialog Generation.** Preprint. ![](https://img.shields.io/badge/dialogue-brown)
 
       *Chujie Zheng, Minlie Huang.* [[pdf](https://arxiv.org/abs/2109.06513)], 2021.9
@@ -328,7 +326,6 @@ This section contains the prompt learning methods designed for various NLP task.
 
       *Kaiyang Zhou, Jingkang Yang, Chen Change Loy, and Ziwei Liu.* [[pdf](https://arxiv.org/abs/2109.01134)], 2021.9
     
-
 
 12. **CPT: Colorful Prompt Tuning for Pre-trained Vision-Language Models.** Preprint. ![](https://img.shields.io/badge/CPT-blue)![](https://img.shields.io/badge/Visual_Grounding-brown) 
    
@@ -354,8 +351,14 @@ This section contains the prompt learning methods designed for various NLP task.
 18. **A Good Prompt Is Worth Millions of Parameters? Low-resource Prompt-based Learning for Vision-Language Models.** ![](https://img.shields.io/badge/FewVLM-blue) ![](https://img.shields.io/badge/Visual_LM-brown)
 
     *Woojeong Jin, Yu Cheng, Yelong Shen, Weizhu Chen, Xiang Ren.* [[pdf](https://arxiv.org/abs/2110.08484)]
+    
+19. **LightNER: A Lightweight Generative Framework with Prompt-guided Attention for Low-resource NER.** Preprint. ![](https://img.shields.io/badge/LightNER-blue) ![](https://img.shields.io/badge/NER-brown) 
 
+      *Xiang Chen, Ningyu Zhang, Lei Li, Xin Xie, Shumin Deng, Chuanqi Tan, Fei Huang, Luo Si, Huajun Chen.* [[pdf](https://arxiv.org/abs/2109.00720)], [[project](https://github.com/zjunlp/DeepKE/tree/main/example/ner/few-shot)], 2021.8
 
+20. **Ontology-enhanced Prompt-tuning for Few-shot Learning.** WWW 2022. ![](https://img.shields.io/badge/OntoPrompt-blue) ![](https://img.shields.io/badge/Information_Extraction-brown) ![](https://img.shields.io/badge/Knowledge_Graph_Completion-red)
+
+      *Hongbin Ye, Ningyu Zhang, Shumin Deng, Xiang Chen, Hui Chen, Feiyu Xiong, Xi Chen, Huajun Chen.* [[pdf](https://arxiv.org/abs/2201.11332)], 2022.1
 
 ## Contribution
 
