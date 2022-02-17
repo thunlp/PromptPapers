@@ -1,7 +1,7 @@
 # PromptPapers
 
 
-![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-63-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
+![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-65-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
 
 We have released an open-source prompt-learning toolkit, check out **[OpenPrompt](https://github.com/thunlp/OpenPrompt)!**
 
@@ -68,7 +68,7 @@ This section contains the papers that overview the general trends in recent natu
    *Tianxiang Sun, Xiangyang Liu, Xipeng Qiu, Xuanjing Huang* [[pdf](https://arxiv.org/abs/2109.12575)], 2021.9
 
 
-   
+
 ### Pilot Work
 This section contains the pilot works that might contributes to the prevalence of prompt learning paradigm.
 1. **Parameter-Efficient Transfer Learning for NLP.** ICML 2019. ![](https://img.shields.io/badge/Adapter-blue) 
@@ -195,6 +195,9 @@ template, verbalizer, training paradigms, etc.
     
     *Xiao Liu, Kaixuan Ji, Yicheng Fu, Zhengxiao Du, Zhilin Yang, Jie Tang* [[pdf](https://arxiv.org/abs/2110.07602)], [[project](https://github.com/THUDM/P-tuning-v2)], 2021.10
 
+22. **Black-Box Tuning for Language-Model-as-a-Service** ![](https://img.shields.io/badge/Black_Box_Tuning-red) ![](https://img.shields.io/badge/Derivative_free_optimize-blue)
+    
+    *Tianxiang Sun, Yunfan Shao, Hong Qian, Xuanjing Huang, Xipeng Qiu* [[pdf](https://arxiv.org/abs/2110.07602)], [[project](https://github.com/txsun1997/Black-Box-Tuning)], 2022.1
 
 ### Analysis
 This section contains the analysis of prompt learning methods, including but not limited to why does prompt learning work, various properties of prompt learning methods, limilation of prompt learning methods.
@@ -287,14 +290,13 @@ This section contains the prompt learning methods designed for various NLP task.
    *Kang Min Yoo, Dongju Park, Jaewook Kang, Sang-Woo Lee, Woomyeong Park.* [[pdf](https://arxiv.org/abs/2104.08826)] 2021.4
 
 3. **Constrained Language Models Yield Few-Shot Semantic Parsers.** Preprint. ![](https://img.shields.io/badge/Dynamic_Template-red) ![](https://img.shields.io/badge/Semantic_Parsing-brown) 
-    
+   
    *Richard Shin, Christopher H. Lin, Sam Thomson, Charles Chen, Subhro Roy, Emmanouil Antonios Platanios, Adam Pauls, Dan Klein, Jason Eisner, Benjamin Van Durme.* [[pdf]](https://arxiv.org/abs/2104.08768) 2021.4
 
 4. **Label Verbalization and Entailment for Effective Zero- and Few-Shot Relation Extraction.** EMNLP 2021. ![](https://img.shields.io/badge/Relation_Extraction-brown) 
    
    *Oscar Sainz, Oier Lopez de Lacalle, Gorka Labaka, Ander Barrena, Eneko Agirre.* [[pdf](https://arxiv.org/abs/2109.03659)], 2021.4
    
-
 5. **PADA: A Prompt-based Autoregressive Approach for Adaptation to Unseen Domains** Preprint.![](https://img.shields.io/badge/PADA-blue) ![](https://img.shields.io/badge/Discrete-red) ![](https://img.shields.io/badge/DomainAdaptation-brown)
 
    *Eyal Ben-David, Nadav Oved, Roi Reichart.* [[pdf](https://arxiv.org/abs/2102.12206)][[project](https://github.com/eyalbd2/PADA)] 2021.5
@@ -302,7 +304,7 @@ This section contains the prompt learning methods designed for various NLP task.
 
 
 6. **Prompt-Learning for Fine-grained Entity Typing.** Preprint. ![](https://img.shields.io/badge/PLET-blue) ![](https://img.shields.io/badge/EntityTyping-brown)
-    
+   
    *Ning Ding, Yulin Chen, Xu Han, Guangwei Xu, Pengjun Xie, Hai-Tao Zheng, Zhiyuan Liu, Juanzi Li, Hong-Gee Kim* [[pdf](https://arxiv.org/abs/2108.10604)],2021.8
 
 7. **KnowPrompt: Knowledge-aware Prompt-tuning with Synergistic Optimization for Relation Extraction.** WWW 2022. ![](https://img.shields.io/badge/KnowPrompt-blue) ![](https://img.shields.io/badge/Relation_Extraction-brown)
@@ -319,7 +321,7 @@ This section contains the prompt learning methods designed for various NLP task.
 
 
 10.  **Template-free Prompt Tuning for Few-shot NER.** Preprint. ![](https://img.shields.io/badge/EntLM-blue) ![](https://img.shields.io/badge/NER-brown)
-    
+     
       *Ruotian Ma\*, Xin Zhou\*, Tao Gui, Yiding Tan, Qi Zhang, Xuanjing Huang.* [[pdf](https://arxiv.org/abs/2109.13532)], 2021.9
 
 11. **Learning to Prompt for Vision-Language Models.** Preprint. ![](https://img.shields.io/badge/CoOp-blue) ![](https://img.shields.io/badge/Visual_LM-brown) 
@@ -356,7 +358,12 @@ This section contains the prompt learning methods designed for various NLP task.
 
       *Xiang Chen, Ningyu Zhang, Lei Li, Xin Xie, Shumin Deng, Chuanqi Tan, Fei Huang, Luo Si, Huajun Chen.* [[pdf](https://arxiv.org/abs/2109.00720)], [[project](https://github.com/zjunlp/DeepKE/tree/main/example/ner/few-shot)], 2021.8
 
-20. **Ontology-enhanced Prompt-tuning for Few-shot Learning.** WWW 2022. ![](https://img.shields.io/badge/OntoPrompt-blue) ![](https://img.shields.io/badge/Information_Extraction-brown) ![](https://img.shields.io/badge/Knowledge_Graph_Completion-red)
+20. **UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models.** ![](https://img.shields.io/badge/UnifiedSKG-blue) ![](https://img.shields.io/badge/Structured_Knowledge_Grounding-brown)  ![](https://img.shields.io/badge/Continuous_Template-red)
+
+    *Tianbao Xie\*, Chen Henry Wu\*, Peng Shi, Ruiqi Zhong, Torsten Scholak, Michihiro Yasunaga, Chien-Sheng Wu, Ming Zhong, Pengcheng Yin, Sida I. Wang, Victor Zhong, Bailin Wang, Chengzu Li, Connor Boyle, Ansong Ni, Ziyu Yao, Dragomir Radev, Caiming Xiong, Lingpeng Kong, Rui Zhang, Noah A. Smith, Luke Zettlemoyer, Tao Yu.*[[pdf](https://arxiv.org/abs/2201.05966)], [[project](https://github.com/hkunlp/unifiedskg)], [[website](https://unifiedskg.com/)], 2022.1
+
+
+21. **Ontology-enhanced Prompt-tuning for Few-shot Learning.** WWW 2022. ![](https://img.shields.io/badge/OntoPrompt-blue) ![](https://img.shields.io/badge/Information_Extraction-brown) ![](https://img.shields.io/badge/Knowledge_Graph_Completion-red)
 
       *Hongbin Ye, Ningyu Zhang, Shumin Deng, Xiang Chen, Hui Chen, Feiyu Xiong, Xi Chen, Huajun Chen.* [[pdf](https://arxiv.org/abs/2201.11332)], 2022.1
 
@@ -370,7 +377,7 @@ We thank [Yujia Qin](https://github.com/thuqinyj16), [Xiachong Feng](https://git
    - First, think about which category the work should belong to. 
    - Second, use the same format as the others to discribe the work. Note that there should be an empty line between the title and the authors list, and take care of the indentation.
    - Then, add [keywords tags](#keywords-convention). Add the pdf link of the paper. If it is an arxiv publication, we prefer /abs/ format to /pdf/ format.
-  
+
    **Don't worry if you put all these wrong, we will fix them for you.** Just contribute and promote your awesome work here! 
-   
+
    If you recommended a work that wasn't yours, you will be added to the contributor list (be sure to provide your information in [other contributors](#other-contributors)).
