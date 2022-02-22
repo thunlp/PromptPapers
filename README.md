@@ -93,7 +93,9 @@ This section contains the pilot works that might contributes to the prevalence o
 
    *Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei.*   [[pdf](https://arxiv.org/abs/2005.14165)], [[website](https://openai.com/blog/gpt-3-apps/)], 2020.5
 
+6. **AdaPrompt: Adaptive Model Training for Prompt-based NLP** ![](https://img.shields.io/badge/PET_Extension-blue)
 
+   *Yulong Chen, Yang Liu, Li Dong, Shuohang Wang, Chenguang Zhu, Michael Zeng, Yue Zhang*  [[pdf](https://arxiv.org/abs/1909.01066)], 2022.02
 
 ### Basics
 This section contains the exploration on the basic aspects of prompt tuning, such as
@@ -374,7 +376,7 @@ This section contains the prompt learning methods designed for various NLP task.
 ## Contribution
 
 ### Other contributors 
-We thank [Yujia Qin](https://github.com/thuqinyj16), [Xiachong Feng](https://github.com/xcfcode), [Chenglei Si](https://github.com/NoviScl) , [Tianbao Xie](https://github.com/Timothyxxx) for the paper recommendation.
+We thank [Yujia Qin](https://github.com/thuqinyj16), [Xiachong Feng](https://github.com/xcfcode), [Chenglei Si](https://github.com/NoviScl) , [Tianbao Xie](https://github.com/Timothyxxx), [Muhtasham Oblokulov](https://github.com/Muhtasham) for the paper recommendation.
 
 
 ### Contributing to this paper list
