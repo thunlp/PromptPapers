@@ -376,7 +376,7 @@ This section contains the prompt learning methods designed for various NLP task.
 
 22. **Learning to Prompt for Continual Learning.** CVPR 2022. ![](https://img.shields.io/badge/L2P-blue) ![](https://img.shields.io/badge/Continual_Learning-brown) ![](https://img.shields.io/badge/Prompt_Pool-red)
 
-      *Zifeng Wang, Zizhao Zhang, Chen-Yu Lee, Han Zhang, Ruoxi Sun, Xiaoqi Ren, Guolong Su, Vincent Perot, Jennifer Dy, Tomas Pfister.* [[pdf](https://arxiv.org/abs/2112.08654)], 2021.12
+      *Zifeng Wang, Zizhao Zhang, Chen-Yu Lee, Han Zhang, Ruoxi Sun, Xiaoqi Ren, Guolong Su, Vincent Perot, Jennifer Dy, Tomas Pfister.* [[pdf](https://arxiv.org/abs/2112.08654)], [[project](https://github.com/google-research/l2p)], 2021.12
 
 ## Contribution
 
