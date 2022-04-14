@@ -251,6 +251,9 @@ This section contains the analysis of prompt learning methods, including but not
 
      *Yujia Qin, Xiaozhi Wang, Yusheng Su, Yankai Lin, Ning Ding, Zhiyuan Liu, Juanzi Li, Lei Hou,Peng Li, Maosong Sun, Jie Zhou* [[pdf](https://arxiv.org/abs/2110.07867)]
 
+13. **Exploring the Universal Vulnerability of Prompt-based Learning Paradigm.** Findings of NAACL 2022. ![](https://img.shields.io/badge/vulnerability-green)
+
+      *Lei Xu, Yangyi Chen, Ganqu Cui, Hongcheng Gao, Zhiyuan Liu* [[pdf](https://arxiv.org/abs/2204.05239)], [[project](https://github.com/leix28/prompt-universal-vulnerability)]
 
 ### Improvements
 This section contains the improvement of the basic prompt tuning methods, include but not limitedd to using additional resources to improving the performances, making up the shortcomings of previous work or conducting prompt tuning in unsual ways.
@@ -282,6 +285,9 @@ This section contains the improvement of the basic prompt tuning methods, includ
 
    *Yaqing Wang, Subhabrata Mukherjee, Xiaodong Liu, Jing Gao, Ahmed Hassan Awadallah, Jianfeng Gao.* [[pdf](https://arxiv.org/abs/2110.06274)], 2021.10
 
+8. **Prototypical Verbalizer for Prompt-based Few-shot Tuning.** ACL 2022. ![](https://img.shields.io/badge/ProtoVerb-blue) ![](https://img.shields.io/badge/Discrete_Template-red) ![](https://img.shields.io/badge/Verbalizer-red) 
+         
+   *Ganqu Cui, Shengding Hu, Ning Ding, Longtao Huang, Zhiyuan Liu*. [[pdf](https://arxiv.org/abs/2203.09770)], [[project](https://github.com/thunlp/OpenPrompt)], 2022.3
    
 ### Specializations
 This section contains the prompt learning methods designed for various NLP task. 
