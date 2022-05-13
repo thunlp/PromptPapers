@@ -7,6 +7,8 @@ We have released an open-source prompt-learning toolkit, check out **[OpenPrompt
 
 We strongly encourage the researchers that want to promote their fantastic work to the community to make **pull request** to update their paper's information! (See [contributing details](#contribution))
 
+Effective adaptation of pre-trained models could be probed from different perspectives. Prompt-learning more focuses on the organization of training procedure and the unification of different tasks, while delta tuning (parameter efficient methods) provides another direction from the specific optimization of pre-trained models. Check [DeltaPapers](https://github.com/thunlp/DeltaPapers)!
+
 <!-- omit in toc -->
 ## Contents
 
