@@ -385,6 +385,17 @@ This section contains the prompt learning methods designed for various NLP task.
 22. **Learning to Prompt for Continual Learning.** CVPR 2022. ![](https://img.shields.io/badge/L2P-blue) ![](https://img.shields.io/badge/Continual_Learning-brown) ![](https://img.shields.io/badge/Prompt_Pool-red)
 
       *Zifeng Wang, Zizhao Zhang, Chen-Yu Lee, Han Zhang, Ruoxi Sun, Xiaoqi Ren, Guolong Su, Vincent Perot, Jennifer Dy, Tomas Pfister.* [[pdf](https://arxiv.org/abs/2112.08654)], [[project](https://github.com/google-research/l2p)], 2021.12
+      
+      
+23. **Relation Extraction as Open-book Examination: Retrieval-enhanced Prompt Tuning.** SIGIR 2022. ![](https://img.shields.io/badge/RetrievalRE-blue) ![](https://img.shields.io/badge/Relation_Extraction-brown)
+
+      *Xiang Chen, Lei Li, Ningyu Zhang, Chuanqi Tan, Fei Huang, Luo Si, Huajun Chen.* [[pdf](https://arxiv.org/abs/2205.02355)], [[project](https://github.com/zjunlp/PromptKG/tree/main/research/RetrievalRE)], 2022.5
+
+
+24. **Good Visual Guidance Makes A Better Extractor: Hierarchical Visual Prefix for Multimodal Entity and Relation Extraction.** Findings of NAACL 2022. ![](https://img.shields.io/badge/HVPNeT-blue) ![](https://img.shields.io/badge/Information_Extraction-brown) ![](https://img.shields.io/badge/Multimodal-red)
+
+      *Xiang Chen, Ningyu Zhang, Lei Li, Yunzhi Yao, Shumin Deng, Chuanqi Tan, Fei Huang, Luo Si, Huajun Chen.* [[pdf](https://arxiv.org/abs/2205.03521)], [[project](https://github.com/zjunlp/HVPNeT)], 2022.5
+
 
 ## Contribution
 
