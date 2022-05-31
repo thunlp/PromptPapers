@@ -18,7 +18,7 @@ Must-read papers on prompt-based tuning for pre-trained language models. The pap
   - [Introduction](#introduction)
     - [Keywords Convention](#keywords-convention)
   - [Papers](#papers)
-    - [Overview(Survey)](#overviewsurvey)
+    - [Overview](#overview)
     - [Pilot Work](#pilot-work)
     - [Basics](#basics)
     - [Analysis](#analysis)
@@ -396,6 +396,19 @@ This section contains the prompt learning methods designed for various NLP task.
 
       *Xiang Chen, Ningyu Zhang, Lei Li, Yunzhi Yao, Shumin Deng, Chuanqi Tan, Fei Huang, Luo Si, Huajun Chen.* [[pdf](https://arxiv.org/abs/2205.03521)], [[project](https://github.com/zjunlp/HVPNeT)], 2022.5
 
+
+25. **Chain of Thought Prompting Elicits Reasoning in Large Language Models.** Preprint 2022. ![](https://img.shields.io/badge/Reasoning-red) 
+
+      *Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed Chi, Quoc Le, Denny Zhou.* [[pdf](https://arxiv.org/abs/2201.11903)]
+
+
+26. **Self-Consistency Improves Chain of Thought Reasoning in Language Models.** Preprint 2022. ![](https://img.shields.io/badge/Reasoning-red) 
+
+      *Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed Chi, Sharan Narang, Aakanksha Chowdhery, Denny Zhou.* [[pdf](https://arxiv.org/abs/2203.11171)]
+
+27. **Large Language Models are Zero-Shot Reasoners.** Preprint 2022. ![](https://img.shields.io/badge/Reasoning-red) 
+
+      *Takeshi Kojima, Shixiang Shane Gu, Machel Reid, Yutaka Matsuo, Yusuke Iwasawa.* [[pdf](https://arxiv.org/abs/2205.11916)]
 
 ## Contribution
 
