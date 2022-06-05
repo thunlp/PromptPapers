@@ -201,7 +201,7 @@ template, verbalizer, training paradigms, etc.
 
 22. **Black-Box Tuning for Language-Model-as-a-Service** ![](https://img.shields.io/badge/Black_Box_Tuning-red) ![](https://img.shields.io/badge/Derivative_free_optimize-blue)
     
-    *Tianxiang Sun, Yunfan Shao, Hong Qian, Xuanjing Huang, Xipeng Qiu* [[pdf](https://arxiv.org/abs/2110.07602)], [[project](https://github.com/txsun1997/Black-Box-Tuning)], 2022.1
+    *Tianxiang Sun, Yunfan Shao, Hong Qian, Xuanjing Huang, Xipeng Qiu* [[pdf](https://arxiv.org/abs/2201.03514)], [[project](https://github.com/txsun1997/Black-Box-Tuning)], 2022.1
 
 ### Analysis
 This section contains the analysis of prompt learning methods, including but not limited to why does prompt learning work, various properties of prompt learning methods, limilation of prompt learning methods.
