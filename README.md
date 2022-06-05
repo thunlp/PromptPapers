@@ -97,7 +97,7 @@ This section contains the pilot works that might contributes to the prevalence o
 
 6. **AdaPrompt: Adaptive Model Training for Prompt-based NLP** ![](https://img.shields.io/badge/PET_Extension-blue)
 
-   *Yulong Chen, Yang Liu, Li Dong, Shuohang Wang, Chenguang Zhu, Michael Zeng, Yue Zhang*  [[pdf](https://arxiv.org/abs/1909.01066)], 2022.02
+   *Yulong Chen, Yang Liu, Li Dong, Shuohang Wang, Chenguang Zhu, Michael Zeng, Yue Zhang*  [[pdf](https://arxiv.org/abs/2202.04824)], 2022.02
 
 ### Basics
 This section contains the exploration on the basic aspects of prompt tuning, such as
