@@ -410,6 +410,10 @@ This section contains the prompt learning methods designed for various NLP task.
 
       *Takeshi Kojima, Shixiang Shane Gu, Machel Reid, Yutaka Matsuo, Yusuke Iwasawa.* [[pdf](https://arxiv.org/abs/2205.11916)]
 
+28. **Least-to-Most Prompting Enables Complex Reasoning in Large Language Models.** Preprint 2022. ![](https://img.shields.io/badge/Reasoning-red) 
+      
+      *Denny Zhou, Nathanael Schärli, Le Hou, Jason Wei, Nathan Scales, Xuezhi Wang, Dale Schuurmans, Olivier Bousquet, Quoc Le, Ed Chi.* [[pdf](https://arxiv.org/abs/2205.10625)]
+
 ## Contribution
 
 ### Other contributors 
