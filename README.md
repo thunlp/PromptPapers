@@ -257,6 +257,11 @@ This section contains the analysis of prompt learning methods, including but not
 
       *Lei Xu, Yangyi Chen, Ganqu Cui, Hongcheng Gao, Zhiyuan Liu* [[pdf](https://arxiv.org/abs/2204.05239)], [[project](https://github.com/leix28/prompt-universal-vulnerability)]
 
+14. **Rethinking the Role of Demonstrations:
+What Makes In-Context Learning Work?.** Arxiv 2022. ![](https://img.shields.io/badge/vulnerability-green)
+
+      *Sewon Min, Xinxi Lyu, Ari Holtzman, Mikel Artetxe, Mike Lewis, Hannaneh Hajishirzi, Luke Zettlemoyer* [[pdf](https://arxiv.org/abs/2202.12837)], [[project](https://github.com/Alrope123/rethinking-demonstrations)]
+
 ### Improvements
 This section contains the improvement of the basic prompt tuning methods, include but not limitedd to using additional resources to improving the performances, making up the shortcomings of previous work or conducting prompt tuning in unsual ways.
 1.  **Calibrate Before Use: Improving Few-Shot Performance of Language Models.**  Preprint. ![](https://img.shields.io/badge/Calibration-green) 
