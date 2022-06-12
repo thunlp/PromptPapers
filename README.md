@@ -419,6 +419,11 @@ This section contains the prompt learning methods designed for various NLP task.
       
       *Denny Zhou, Nathanael Schärli, Le Hou, Jason Wei, Nathan Scales, Xuezhi Wang, Dale Schuurmans, Olivier Bousquet, Quoc Le, Ed Chi.* [[pdf](https://arxiv.org/abs/2205.10625)]
 
+29. **Maieutic Prompting: Logically Consistent Reasoning with Recursive Explanations.** Preprint 2022. ![](https://img.shields.io/badge/Reasoning-red)
+      
+      *Jaehun Jung, Lianhui Qin, Sean Welleck, Faeze Brahman, Chandra Bhagavatula, Ronan Le Bras, Yejin Choi*
+[[pdf](https://arxiv.org/abs/2205.11822)]
+
 ## Contribution
 
 ### Other contributors 
