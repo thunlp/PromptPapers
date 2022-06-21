@@ -424,6 +424,11 @@ This section contains the prompt learning methods designed for various NLP task.
       *Jaehun Jung, Lianhui Qin, Sean Welleck, Faeze Brahman, Chandra Bhagavatula, Ronan Le Bras, Yejin Choi*
 [[pdf](https://arxiv.org/abs/2205.11822)]
 
+30.  **On the Advance of Making Language Models Better Reasoners.** Preprint 2022. ![](https://img.shields.io/badge/Reasoning-red)
+
+      *Yifei Li, Zeqi Lin, Shizhuo Zhang, Qiang Fu, Bei Chen, Jian-Guang Lou, Weizhu Chen* [[pdf](https://arxiv.org/abs/2205.11822)]
+      
+
 ## Contribution
 
 ### Other contributors 
