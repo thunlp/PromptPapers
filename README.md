@@ -431,7 +431,7 @@ This section contains the prompt learning methods designed for various NLP task.
 
 31. **Learning to Compose Soft Prompts for Compositional Zero-Shot Learning.** Preprint 2022. ![](https://img.shields.io/badge/CSP-blue) ![](https://img.shields.io/badge/Continous_Template-red)
 
-      *Nihal V. Nayak\*, Peilin Yu\*, Stephen H. Bach* [[pdf](https://arxiv.org/abs/2204.03574)]
+      *Nihal V. Nayak\*, Peilin Yu\*, Stephen H. Bach* [[pdf](https://arxiv.org/abs/2204.03574)], [[project](https://github.com/BatsResearch/csp)]
     
 
 
