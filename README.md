@@ -41,9 +41,9 @@ This is a paper list about **prompt-based tuning** for large-scale pre-trained l
 
 ![](https://img.shields.io/badge/Continous_Template-red) The key features in terms of prompt learning used in the work.
 
-![](https://img.shields.io/badge/Generation-brown) The main explored task of the work.
+![](https://img.shields.io/badge/Generation-brown) The mainly explored task of the work.
 
-![](https://img.shields.io/badge/Analysis-green) The main explored property of prompt learning methods in the work.
+![](https://img.shields.io/badge/Analysis-green) The mainly explored property of prompt learning methods in the work.
 
 
 ## Papers
