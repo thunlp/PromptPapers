@@ -195,7 +195,7 @@ template, verbalizer, training paradigms, etc.
 
     *Victor Sanh, Albert Webson, Colin Raffel, Stephen H. Bach, Lintang Sutawika, Zaid Alyafeai, Antoine Chaffin, Arnaud Stiegler, Teven Le Scao, Arun Raja, Manan Dey, M Saiful Bari, Canwen Xu, Urmish Thakker, Shanya Sharma Sharma, Eliza Szczechla, Taewoon Kim, Gunjan Chhablani, Nihal Nayak, Debajyoti Datta, Jonathan Chang, Mike Tian-Jian Jiang, Han Wang, Matteo Manica, Sheng Shen, Zheng Xin Yong, Harshit Pandey, Rachel Bawden, Thomas Wang, Trishala Neeraj, Jos Rozen, Abheesht Sharma, Andrea Santilli, Thibault Fevry, Jason Alan Fries, Ryan Teehan, Stella Biderman, Leo Gao, Tali Bers, Thomas Wolf, Alexander M. Rush.* [[pdf](https://arxiv.org/abs/2110.08207)], 2021.10
     
-21. **P-Tuning v2: Prompt Tuning Can Be Comparable to Finetuning Universally Across Scales and Tasks.** ![](https://img.shields.io/badge/P_Tuning_v2-blue) ![](https://img.shields.io/badge/Continuous_Template-red)
+21. **P-Tuning v2: Prompt Tuning Can Be Comparable to Finetuning Universally Across Scales and Tasks.** ACL 2022. ![](https://img.shields.io/badge/P_Tuning_v2-blue) ![](https://img.shields.io/badge/Continuous_Template-red)
     
     *Xiao Liu, Kaixuan Ji, Yicheng Fu, Zhengxiao Du, Zhilin Yang, Jie Tang* [[pdf](https://arxiv.org/abs/2110.07602)], [[project](https://github.com/THUDM/P-tuning-v2)], 2021.10
 
@@ -261,6 +261,10 @@ This section contains the analysis of prompt learning methods, including but not
 What Makes In-Context Learning Work?.** Arxiv 2022. ![](https://img.shields.io/badge/vulnerability-green)
 
       *Sewon Min, Xinxi Lyu, Ari Holtzman, Mikel Artetxe, Mike Lewis, Hannaneh Hajishirzi, Luke Zettlemoyer* [[pdf](https://arxiv.org/abs/2202.12837)], [[project](https://github.com/Alrope123/rethinking-demonstrations)]
+      
+15. **Parameter-Efficient Prompt Tuning Makes Generalized and Calibrated Neural Text Retrievers.** Preprint. ![](https://img.shields.io/badge/generalization-green) ![](https://img.shields.io/badge/calibration-green)
+
+      *Weng Lam Tam, Xiao Liu, Kaixuan Ji, Lilong Xue, Yuxiao Dong, Jiahua Liu, Maodi Hu, Jie Tang* [[pdf](https://arxiv.org/abs/2207.07087)] [[project](https://github.com/THUDM/P-tuning-v2/tree/main/PT-Retrieval)]
 
 ### Improvements
 This section contains the improvement of the basic prompt tuning methods, include but not limitedd to using additional resources to improving the performances, making up the shortcomings of previous work or conducting prompt tuning in unsual ways.
