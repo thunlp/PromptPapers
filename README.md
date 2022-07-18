@@ -65,9 +65,9 @@ This section contains the papers that overview the general trends in recent natu
 
    *Liu, Pengfei, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, and Graham Neubig.*  [[pdf](https://arxiv.org/abs/2107.13586)] [[project](http://pretrain.nlpedia.ai)], 2021.7
 
-4. **Paradigm Shift in Natural Language Processing.** Preprint.
+4. **Paradigm Shift in Natural Language Processing.** Machine Intelligence Research.
    
-   *Tianxiang Sun, Xiangyang Liu, Xipeng Qiu, Xuanjing Huang* [[pdf](https://arxiv.org/abs/2109.12575)], 2021.9
+   *Tianxiang Sun, Xiangyang Liu, Xipeng Qiu, Xuanjing Huang* [[pdf](https://arxiv.org/abs/2109.12575)] [[project](https://txsun1997.github.io/nlp-paradigm-shift/)], 2021.9
 
 
 
@@ -199,7 +199,7 @@ template, verbalizer, training paradigms, etc.
     
     *Xiao Liu, Kaixuan Ji, Yicheng Fu, Zhengxiao Du, Zhilin Yang, Jie Tang* [[pdf](https://arxiv.org/abs/2110.07602)], [[project](https://github.com/THUDM/P-tuning-v2)], 2021.10
 
-22. **Black-Box Tuning for Language-Model-as-a-Service** ![](https://img.shields.io/badge/Black_Box_Tuning-red) ![](https://img.shields.io/badge/Derivative_free_optimize-blue)
+22. **Black-Box Tuning for Language-Model-as-a-Service.** ICML 2022. ![](https://img.shields.io/badge/Black--Box_Tuning-blue) ![](https://img.shields.io/badge/Derivative--free_optimization-red)
     
     *Tianxiang Sun, Yunfan Shao, Hong Qian, Xuanjing Huang, Xipeng Qiu* [[pdf](https://arxiv.org/abs/2201.03514)], [[project](https://github.com/txsun1997/Black-Box-Tuning)], 2022.1
 
@@ -295,6 +295,10 @@ This section contains the improvement of the basic prompt tuning methods, includ
 8. **Prototypical Verbalizer for Prompt-based Few-shot Tuning.** ACL 2022. ![](https://img.shields.io/badge/ProtoVerb-blue) ![](https://img.shields.io/badge/Discrete_Template-red) ![](https://img.shields.io/badge/Verbalizer-red) 
          
    *Ganqu Cui, Shengding Hu, Ning Ding, Longtao Huang, Zhiyuan Liu*. [[pdf](https://arxiv.org/abs/2203.09770)], [[project](https://github.com/thunlp/OpenPrompt)], 2022.3
+   
+9. **BBTv2: Pure Black-Box Optimization Can Be Comparable to Gradient Descent for Few-Shot Learning.** Preprint. ![](https://img.shields.io/badge/BBTv2-blue) ![](https://img.shields.io/badge/Derivative--free_optimization-red) 
+
+   *Tianxiang Sun, Zhengfu He, Hong Qian, Xuanjing Huang, Xipeng Qiu* [[pdf](https://arxiv.org/abs/2205.11200)] [[project](https://github.com/txsun1997/Black-Box-Tuning)], 2022.5
    
 ### Specializations
 This section contains the prompt learning methods designed for various NLP task. 
