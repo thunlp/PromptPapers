@@ -440,7 +440,10 @@ This section contains the prompt learning methods designed for various NLP task.
 31. **Learning to Compose Soft Prompts for Compositional Zero-Shot Learning.** Preprint 2022. ![](https://img.shields.io/badge/CSP-blue) ![](https://img.shields.io/badge/Continous_Template-red)
 
       *Nihal V. Nayak\*, Peilin Yu\*, Stephen H. Bach* [[pdf](https://arxiv.org/abs/2204.03574)], [[project](https://github.com/BatsResearch/csp)]
-    
+      
+32. **Exploring Length Generalization in Large Language Models.** Preprint 2022. ![](https://img.shields.io/badge/Continuous_Template-red)
+
+      *Cem Anil, Yuhuai Wu, Anders Andreassen, Aitor Lewkowycz, Vedant Misra, Vinay Ramasesh, Ambrose Slone, Guy Gur-Ari, Ethan Dyer, Behnam Neyshabur* [[pdf](https://arxiv.org/abs/2207.04901)]
 
 
 ## Contribution
