@@ -381,9 +381,9 @@ This section contains the prompt learning methods designed for various NLP task.
 
     *Woojeong Jin, Yu Cheng, Yelong Shen, Weizhu Chen, Xiang Ren.* [[pdf](https://arxiv.org/abs/2110.08484)]
     
-19. **LightNER: A Lightweight Generative Framework with Prompt-guided Attention for Low-resource NER.** Preprint. ![](https://img.shields.io/badge/LightNER-blue) ![](https://img.shields.io/badge/NER-brown) 
+19. **LightNER: A Lightweight Generative Framework with Prompt-guided Attention for Low-resource NER.**  COLING 2022. ![](https://img.shields.io/badge/LightNER-blue) ![](https://img.shields.io/badge/NER-brown) 
 
-      *Xiang Chen, Ningyu Zhang, Lei Li, Xin Xie, Shumin Deng, Chuanqi Tan, Fei Huang, Luo Si, Huajun Chen.* [[pdf](https://arxiv.org/abs/2109.00720)], [[project](https://github.com/zjunlp/DeepKE/tree/main/example/ner/few-shot)], 2021.8
+      *Xiang Chen, Lei Li, Shumin Deng, Chuanqi Tan, Changliang Xu, Fei Huang, Luo Si, Huajun Chen, Ningyu Zhang.* [[pdf](https://arxiv.org/abs/2109.00720)], [[project](https://github.com/zjunlp/DeepKE/tree/main/example/ner/few-shot)], 2021.8
 
 20. **UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models.** ![](https://img.shields.io/badge/UnifiedSKG-blue) ![](https://img.shields.io/badge/Structured_Knowledge_Grounding-brown)  ![](https://img.shields.io/badge/Continuous_Template-red)
 
@@ -440,6 +440,10 @@ This section contains the prompt learning methods designed for various NLP task.
 31. **Learning to Compose Soft Prompts for Compositional Zero-Shot Learning.** Preprint 2022. ![](https://img.shields.io/badge/CSP-blue) ![](https://img.shields.io/badge/Continous_Template-red)
 
       *Nihal V. Nayak\*, Peilin Yu\*, Stephen H. Bach* [[pdf](https://arxiv.org/abs/2204.03574)], [[project](https://github.com/BatsResearch/csp)]
+     
+32. **Decoupling Knowledge from Memorization: Retrieval-augmented Prompt Learning.**  Preprint. ![](https://img.shields.io/badge/RetroPrompt-blue)  ![](https://img.shields.io/badge/Continuous_Template-red)
+
+      *Xiang Chen, Lei Li, Ningyu Zhang, Xiaozhuan Liang, Shumin Deng, Chuanqi Tan, Fei Huang, Luo Si, Huajun Chen.* [[pdf](https://arxiv.org/abs/2205.14704)], 2022.5
     
 
 
