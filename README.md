@@ -203,7 +203,7 @@ template, verbalizer, training paradigms, etc.
     
     *Tianxiang Sun, Yunfan Shao, Hong Qian, Xuanjing Huang, Xipeng Qiu* [[pdf](https://arxiv.org/abs/2201.03514)], [[project](https://github.com/txsun1997/Black-Box-Tuning)], 2022.1
     
-23. **Black-box Prompt Learning for Pre-trained Language Models.** Preprint. ![](https://img.shields.io/badge/-Black--Box--prompt--learning%20-blue) ![](https://img.shields.io/badge/Derivative--free_optimization-red)
+23. **Black-box Prompt Learning for Pre-trained Language Models.** Preprint. ![](https://img.shields.io/badge/-Black--Box%20Prompt%20Learning%20-blue) ![](https://img.shields.io/badge/Derivative--free_optimization-red)
     
     *Shizhe Diao, Xuechun Li, Yong Lin, Zhichao Huang, Tong Zhang* [[pdf](https://arxiv.org/abs/2201.08531)], 2022.1   
 
