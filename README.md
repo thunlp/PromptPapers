@@ -202,6 +202,10 @@ template, verbalizer, training paradigms, etc.
 22. **Black-Box Tuning for Language-Model-as-a-Service.** ICML 2022. ![](https://img.shields.io/badge/Black--Box_Tuning-blue) ![](https://img.shields.io/badge/Derivative--free_optimization-red)
     
     *Tianxiang Sun, Yunfan Shao, Hong Qian, Xuanjing Huang, Xipeng Qiu* [[pdf](https://arxiv.org/abs/2201.03514)], [[project](https://github.com/txsun1997/Black-Box-Tuning)], 2022.1
+    
+23. **Black-box Prompt Learning for Pre-trained Language Models.** Preprint. ![](https://img.shields.io/badge/-Black--Box%20Prompt%20Learning%20-blue) ![](https://img.shields.io/badge/Derivative--free_optimization-red)
+    
+    *Shizhe Diao, Xuechun Li, Yong Lin, Zhichao Huang, Tong Zhang* [[pdf](https://arxiv.org/abs/2201.08531)], 2022.1   
 
 ### Analysis
 This section contains the analysis of prompt learning methods, including but not limited to why does prompt learning work, various properties of prompt learning methods, limilation of prompt learning methods.
