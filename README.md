@@ -207,6 +207,10 @@ template, verbalizer, training paradigms, etc.
     
     *Shizhe Diao, Xuechun Li, Yong Lin, Zhichao Huang, Tong Zhang* [[pdf](https://arxiv.org/abs/2201.08531)], 2022.1   
 
+24. **Binding Language Models in Symbolic Languages.** Preprint. ![](https://img.shields.io/badge/Binder-blue) ![](https://img.shields.io/badge/Discrete_Template-red) ![](https://img.shields.io/badge/Neural_Symbolic-green)
+    
+    *Zhoujun Cheng, Tianbao Xie, Peng Shi, Chengzu Li, Rahul Nadkarni, Yushi Hu, Caiming Xiong, Dragomir Radev, Mari Ostendorf, Luke Zettlemoyer, Noah A. Smith, Tao Yu* [[pdf](https://arxiv.org/abs/2210.02875)], [[project](https://github.com/HKUNLP/Binder)], [[website](https://lm-code-binder.github.io/)], 2022.10   
+
 ### Analysis
 This section contains the analysis of prompt learning methods, including but not limited to why does prompt learning work, various properties of prompt learning methods, limilation of prompt learning methods.
 1. **What Makes Good In-Context Examples for GPT-3?**. Preprint. ![](https://img.shields.io/badge/Analysis-green)
