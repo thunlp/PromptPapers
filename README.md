@@ -450,9 +450,9 @@ This section contains the prompt learning methods designed for various NLP task.
       *Nihal V. Nayak\*, Peilin Yu\*, Stephen H. Bach* [[pdf](https://arxiv.org/abs/2204.03574)], [[project](https://github.com/BatsResearch/csp)]
 
      
-32. **Decoupling Knowledge from Memorization: Retrieval-augmented Prompt Learning.**  Preprint. ![](https://img.shields.io/badge/RetroPrompt-blue)  ![](https://img.shields.io/badge/Continuous_Template-red)
+32. **Decoupling Knowledge from Memorization: Retrieval-augmented Prompt Learning.** NeurIPS 2022. ![](https://img.shields.io/badge/RetroPrompt-blue)  ![](https://img.shields.io/badge/Continuous_Template-red)
 
-      *Xiang Chen, Lei Li, Ningyu Zhang, Xiaozhuan Liang, Shumin Deng, Chuanqi Tan, Fei Huang, Luo Si, Huajun Chen.* [[pdf](https://arxiv.org/abs/2205.14704)], 2022.5
+      *Xiang Chen, Lei Li, Ningyu Zhang, Xiaozhuan Liang, Shumin Deng, Chuanqi Tan, Fei Huang, Luo Si, Huajun Chen.* [[pdf](https://arxiv.org/abs/2205.14704)], [[project](https://github.com/zjunlp/PromptKG/tree/main/research/RetroPrompt)], 2022.5
     
       
 33. **Exploring Length Generalization in Large Language Models.** Preprint 2022. ![](https://img.shields.io/badge/Continuous_Template-red)
