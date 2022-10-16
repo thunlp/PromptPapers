@@ -458,7 +458,20 @@ This section contains the prompt learning methods designed for various NLP task.
 33. **Exploring Length Generalization in Large Language Models.** Preprint 2022. ![](https://img.shields.io/badge/Continuous_Template-red)
 
       *Cem Anil, Yuhuai Wu, Anders Andreassen, Aitor Lewkowycz, Vedant Misra, Vinay Ramasesh, Ambrose Slone, Guy Gur-Ari, Ethan Dyer, Behnam Neyshabur* [[pdf](https://arxiv.org/abs/2207.04901)]
+      
+34. **Ask Me Anything: A simple strategy for prompting language models.** Preprint 2022. ![](https://img.shields.io/badge/Continuous_Template-red)
+      
+      *Simran Arora, Avanika Narayan, Mayee F. Chen, Laurel Orr, Neel Guha, Kush Bhatia, Ines Chami, Frederic Sala, Christopher Ré*
+[[pdf](https://arxiv.org/abs/2210.02441)]
 
+35. **Measuring And Narrowing The Compositionality Gap In Language Models**  Preprint 2022. ![](https://img.shields.io/badge/Continuous_Template-red)
+
+      *Ofir Press, Muru Zhang, Sewon Min, Ludwig Schmidt, Noah A. Smith, Mike Lewis* [[pdf](https://ofir.io/self-ask.pdf)]
+
+36. **RLPrompt: Optimizing Discrete Text Prompts with Reinforcement Learning** Preprint 2022. ![](https://img.shields.io/badge/Continuous_Template-red)
+    
+    *Mingkai Deng, Jianyu Wang, Cheng-Ping Hsieh, Yihan Wang, Han Guo, Tianmin Shu, Meng Song, Eric P. Xing, Zhiting Hu* 
+    [[pdf](https://arxiv.org/abs/2205.12548)]
 
 ## Contribution
 
