@@ -472,6 +472,12 @@ This section contains the prompt learning methods designed for various NLP task.
     
     *Mingkai Deng, Jianyu Wang, Cheng-Ping Hsieh, Yihan Wang, Han Guo, Tianmin Shu, Meng Song, Eric P. Xing, Zhiting Hu* 
     [[pdf](https://arxiv.org/abs/2205.12548)]
+    
+37. **Reasoning with Language Model Prompting: A Survey** Preprint 2022. ![](https://img.shields.io/badge/Reasoning-red) 
+    
+    *Shuofei Qiao, Yixin Ou, Ningyu Zhang, Xiang Chen, Yunzhi Yao, Shumin Deng, Chuanqi Tan, Fei Huang, Huajun Chen* 
+    [[pdf](https://arxiv.org/abs/2212.09597)]
+    
 
 ## Contribution
 
