@@ -273,6 +273,10 @@ What Makes In-Context Learning Work?.** Arxiv 2022. ![](https://img.shields.io/b
 15. **Parameter-Efficient Prompt Tuning Makes Generalized and Calibrated Neural Text Retrievers.** Preprint. ![](https://img.shields.io/badge/generalization-green) ![](https://img.shields.io/badge/calibration-green)
 
       *Weng Lam Tam, Xiao Liu, Kaixuan Ji, Lilong Xue, Yuxiao Dong, Jiahua Liu, Maodi Hu, Jie Tang* [[pdf](https://arxiv.org/abs/2207.07087)] [[project](https://github.com/THUDM/P-tuning-v2/tree/main/PT-Retrieval)]
+      
+16. **Ignore Previous Prompt: Attack Techniques For Language Models.** Best Paper Award @ NeurIPS ML Safety Workshop 2022. ![](https://img.shields.io/badge/PromptInject-blue)
+
+      *Fábio Perez, Ian Ribeiro* [[pdf](https://arxiv.org/abs/2211.09527)] [[project](https://github.com/agencyenterprise/PromptInject)], 2022.11
 
 ### Improvements
 This section contains the improvement of the basic prompt tuning methods, include but not limitedd to using additional resources to improving the performances, making up the shortcomings of previous work or conducting prompt tuning in unsual ways.
@@ -350,7 +354,7 @@ This section contains the prompt learning methods designed for various NLP task.
 
       *Chujie Zheng, Minlie Huang.* [[pdf](https://arxiv.org/abs/2109.06513)], 2021.9
 
-9. **SentiPrompt: Sentiment Knowledge Enhanced Prompt-Tuning for Aspect-Based Sentiment Analysis.** Preprint. ![](https://img.shields.io/badge/SentiPrompt-blue) ![](https://img.shields.io/badge/Sentiment_Analysis-brown)
+9. **SentiPrompt: Sentiment Knowledge Enhanced Prompt-Tuning for Aspect-Based Sentiment \.** Preprint. ![](https://img.shields.io/badge/SentiPrompt-blue) ![](https://img.shields.io/badge/Sentiment_Analysis-brown)
    
       *Chengxi Li, Feiyu Gao, Jiajun Bu, Lu Xu, Xiang Chen, Yu Gu, Zirui Shao, Qi Zheng, Ningyu Zhang, Yongpan Wang, Zhi Yu.*  [[pdf](https://arxiv.org/abs/2109.08306)] 2021.9
 
