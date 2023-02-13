@@ -354,7 +354,7 @@ This section contains the prompt learning methods designed for various NLP task.
 
       *Chujie Zheng, Minlie Huang.* [[pdf](https://arxiv.org/abs/2109.06513)], 2021.9
 
-9. **SentiPrompt: Sentiment Knowledge Enhanced Prompt-Tuning for Aspect-Based Sentiment \.** Preprint. ![](https://img.shields.io/badge/SentiPrompt-blue) ![](https://img.shields.io/badge/Sentiment_Analysis-brown)
+9. **SentiPrompt: Sentiment Knowledge Enhanced Prompt-Tuning for Aspect-Based Sentiment Analysis.** Preprint. ![](https://img.shields.io/badge/SentiPrompt-blue) ![](https://img.shields.io/badge/Sentiment_Analysis-brown)
    
       *Chengxi Li, Feiyu Gao, Jiajun Bu, Lu Xu, Xiang Chen, Yu Gu, Zirui Shao, Qi Zheng, Ningyu Zhang, Yongpan Wang, Zhi Yu.*  [[pdf](https://arxiv.org/abs/2109.08306)] 2021.9
 
