@@ -39,7 +39,7 @@ This is a paper list about **prompt-based tuning** for large-scale pre-trained l
 
 ![](https://img.shields.io/badge/T5-blue) The abbreviation of the work.
 
-![](https://img.shields.io/badge/Continous_Template-red) The key features in terms of prompt learning used in the work.
+![](https://img.shields.io/badge/Continuous_Template-red) The key features in terms of prompt learning used in the work.
 
 ![](https://img.shields.io/badge/Generation-brown) The mainly explored task of the work.
 
@@ -144,17 +144,17 @@ template, verbalizer, training paradigms, etc.
 
        *Xiao Liu, Yanan Zheng, Zhengxiao Du, Ming Ding, Yujie Qian, Zhilin Yang, Jie Tang*.  [[pdf](https://arxiv.org/abs/2103.10385)], [[project](https://github.com/THUDM/P-tuning)], 2021.3
 
-10.    **The Power of Scale for Parameter-Efﬁcient Prompt Tuning.** Preprint. ![](https://img.shields.io/badge/Soft_Prompt-blue) ![](https://img.shields.io/badge/Continous_Template-red) 
+10.    **The Power of Scale for Parameter-Efﬁcient Prompt Tuning.** Preprint. ![](https://img.shields.io/badge/Soft_Prompt-blue) ![](https://img.shields.io/badge/Continuous_Template-red) 
 
        *Brian Lester, Rami Al-Rfou, Noah Constant*. [[pdf](https://arxiv.org/abs/2104.08691)], [[project](https://github.com/kipgparker/soft-prompt-tuning)], 2021.4
 
-11.    **Learning How to Ask: Querying LMs with Mixtures of Soft Prompts.** NAACL 2021. ![](https://img.shields.io/badge/Ensemble-blue) ![](https://img.shields.io/badge/Continous_Template-red) 
+11.    **Learning How to Ask: Querying LMs with Mixtures of Soft Prompts.** NAACL 2021. ![](https://img.shields.io/badge/Ensemble-blue) ![](https://img.shields.io/badge/Continuous_Template-red) 
 
        *Guanghui Qin, Jason Eisner.* [[pdf](https://arxiv.org/abs/2104.06599)][[project](https://github.com/hiaoxui/soft-prompts)], 2021.4
 
 
 
-12.    **Factual Probing Is [MASK]: Learning vs. Learning to Recall.** NAACL 2021. ![](https://img.shields.io/badge/OptiPrompt-blue) ![](https://img.shields.io/badge/Continous_Template-red)  ![](https://img.shields.io/badge/Probing-brown)
+12.    **Factual Probing Is [MASK]: Learning vs. Learning to Recall.** NAACL 2021. ![](https://img.shields.io/badge/OptiPrompt-blue) ![](https://img.shields.io/badge/Continuous_Template-red)  ![](https://img.shields.io/badge/Probing-brown)
 
        *Zexuan Zhong, Dan Friedman, Danqi Chen.*  [[pdf](https://arxiv.org/abs/2104.05240)], [[project](https://github.com/princeton-nlp/OptiPrompt)], 2021.4
 
@@ -445,7 +445,7 @@ This section contains the prompt learning methods designed for various NLP task.
       *Yifei Li, Zeqi Lin, Shizhuo Zhang, Qiang Fu, Bei Chen, Jian-Guang Lou, Weizhu Chen* [[pdf](https://arxiv.org/abs/2205.11822)]
       
 
-31. **Learning to Compose Soft Prompts for Compositional Zero-Shot Learning.** Preprint 2022. ![](https://img.shields.io/badge/CSP-blue) ![](https://img.shields.io/badge/Continous_Template-red)
+31. **Learning to Compose Soft Prompts for Compositional Zero-Shot Learning.** Preprint 2022. ![](https://img.shields.io/badge/CSP-blue) ![](https://img.shields.io/badge/Continuous_Template-red)
 
       *Nihal V. Nayak\*, Peilin Yu\*, Stephen H. Bach* [[pdf](https://arxiv.org/abs/2204.03574)], [[project](https://github.com/BatsResearch/csp)]
 
