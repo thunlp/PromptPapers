@@ -273,6 +273,10 @@ What Makes In-Context Learning Work?.** Arxiv 2022. ![](https://img.shields.io/b
 15. **Parameter-Efficient Prompt Tuning Makes Generalized and Calibrated Neural Text Retrievers.** Preprint. ![](https://img.shields.io/badge/generalization-green) ![](https://img.shields.io/badge/calibration-green)
 
       *Weng Lam Tam, Xiao Liu, Kaixuan Ji, Lilong Xue, Yuxiao Dong, Jiahua Liu, Maodi Hu, Jie Tang* [[pdf](https://arxiv.org/abs/2207.07087)] [[project](https://github.com/THUDM/P-tuning-v2/tree/main/PT-Retrieval)]
+      
+16. **Ignore Previous Prompt: Attack Techniques For Language Models.** Best Paper Award @ NeurIPS ML Safety Workshop 2022. ![](https://img.shields.io/badge/PromptInject-blue)
+
+      *Fábio Perez, Ian Ribeiro* [[pdf](https://arxiv.org/abs/2211.09527)] [[project](https://github.com/agencyenterprise/PromptInject)], 2022.11
 
 ### Improvements
 This section contains the improvement of the basic prompt tuning methods, include but not limitedd to using additional resources to improving the performances, making up the shortcomings of previous work or conducting prompt tuning in unsual ways.
