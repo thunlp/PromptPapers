@@ -210,6 +210,9 @@ template, verbalizer, training paradigms, etc.
 24. **Binding Language Models in Symbolic Languages.** Preprint. ![](https://img.shields.io/badge/Binder-blue) ![](https://img.shields.io/badge/Discrete_Template-red) ![](https://img.shields.io/badge/Neural_Symbolic-green)
     
     *Zhoujun Cheng\*, Tianbao Xie\*, Peng Shi, Chengzu Li, Rahul Nadkarni, Yushi Hu, Caiming Xiong, Dragomir Radev, Mari Ostendorf, Luke Zettlemoyer, Noah A. Smith, Tao Yu* [[pdf](https://arxiv.org/abs/2210.02875)], [[project](https://github.com/HKUNLP/Binder)], [[website](https://lm-code-binder.github.io/)], 2022.10
+    
+25. **A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT.** ![](https://img.shields.io/badge/chatGPT-blue) ![](https://img.shields.io/badge/Prompt_Pattern-red)
+    *Jules White, Quchen Fu, Sam Hays, Michael Sandborn, Carlos Olea, Henry Gilbert, Ashraf Elnashar, Jesse Spencer-Smith, Douglas C. Schmidt* [[pdf](https://arxiv.org/abs/2302.11382)], 2023.2
 
 ### Analysis
 This section contains the analysis of prompt learning methods, including but not limited to why does prompt learning work, various properties of prompt learning methods, limilation of prompt learning methods.
