@@ -485,6 +485,11 @@ This section contains the prompt learning methods designed for various NLP task.
     *Shuofei Qiao, Yixin Ou, Ningyu Zhang, Xiang Chen, Yunzhi Yao, Shumin Deng, Chuanqi Tan, Fei Huang, Huajun Chen* 
     [[pdf](https://arxiv.org/abs/2212.09597)]
     
+38. **Text classification in Education: Prompt text classifications with transformer models! An exemplary introduction to prompt-based learning with large language models** Published 2023. ![](https://img.shields.io/badge/Discrete_Template-red) 
+    
+    *Christian W. Mayer, Sabrina Ludwig & Steffen Brandt* 
+    [[pdf](https://doi.org/10.1080/15391523.2022.2142872)]
+    
 
 ## Contribution
 
