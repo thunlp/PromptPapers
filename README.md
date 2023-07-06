@@ -281,6 +281,10 @@ What Makes In-Context Learning Work?.** Arxiv 2022. ![](https://img.shields.io/b
 
       *Fábio Perez, Ian Ribeiro* [[pdf](https://arxiv.org/abs/2211.09527)] [[project](https://github.com/agencyenterprise/PromptInject)], 2022.11
 
+17. **Can discrete information extraction prompts generalize across language models?** ICLR 2023. ![](https://img.shields.io/badge/Analysis-green) ![](https://img.shields.io/badge/generalization-green)
+
+      *Nathanaël Carraz Rakotonirina, Roberto Dessì, Fabio Petroni, Sebastian Riedel, Marco Baroni* [[pdf](https://arxiv.org/abs/2302.09865)] [[project](https://github.com/ncarraz/prompt_generalization)], 2023.5
+
 ### Improvements
 This section contains the improvement of the basic prompt tuning methods, include but not limitedd to using additional resources to improving the performances, making up the shortcomings of previous work or conducting prompt tuning in unsual ways.
 1.  **Calibrate Before Use: Improving Few-Shot Performance of Language Models.**  Preprint. ![](https://img.shields.io/badge/Calibration-green) 
