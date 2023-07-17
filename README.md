@@ -1,7 +1,7 @@
 # PromptPapers
 
 
-![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-65-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
+![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-87-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
 
 We have released an open-source prompt-learning toolkit, check out **[OpenPrompt](https://github.com/thunlp/OpenPrompt)!**
 
@@ -280,6 +280,12 @@ What Makes In-Context Learning Work?.** Arxiv 2022. ![](https://img.shields.io/b
 16. **Ignore Previous Prompt: Attack Techniques For Language Models.** Best Paper Award @ NeurIPS ML Safety Workshop 2022. ![](https://img.shields.io/badge/PromptInject-blue)
 
       *Fábio Perez, Ian Ribeiro* [[pdf](https://arxiv.org/abs/2211.09527)] [[project](https://github.com/agencyenterprise/PromptInject)], 2022.11
+
+17. **Prompt Performance Prediction for Generative IR.** Preprint. ![](https://img.shields.io/badge/PromptPerformancePrediction-blue) 
+
+      *Nicolas Bizzozzero, Ihab Bendidi, Olivier Risser-Maroix* [[pdf](https://arxiv.org/abs/2306.08915)], 2023.6
+
+
 
 ### Improvements
 This section contains the improvement of the basic prompt tuning methods, include but not limitedd to using additional resources to improving the performances, making up the shortcomings of previous work or conducting prompt tuning in unsual ways.
