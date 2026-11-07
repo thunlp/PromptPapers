@@ -319,6 +319,10 @@ This section contains the improvement of the basic prompt tuning methods, includ
 
    *Tianxiang Sun, Zhengfu He, Hong Qian, Xuanjing Huang, Xipeng Qiu* [[pdf](https://arxiv.org/abs/2205.11200)] [[project](https://github.com/txsun1997/Black-Box-Tuning)], 2022.5
    
+10. **Efficient Test-Time Prompt Tuning for Vision-Language Models.** IJCV 2026. ![](https://img.shields.io/badge/Self--TPT-blue) ![](https://img.shields.io/badge/Continuous_Template-red) ![](https://img.shields.io/badge/Efficiency-green)
+
+    *Yuhan Zhu, Guozhen Zhang, Chen Xu, Haocheng Shen, Xiaoxin Chen, Gangshan Wu, Limin Wang.* [[pdf](https://arxiv.org/abs/2408.05775)], [[Publication](https://link.springer.com/article/10.1007/s11263-026-03019-3)]
+
 ### Specializations
 This section contains the prompt learning methods designed for various NLP task. 
 
@@ -485,6 +489,14 @@ This section contains the prompt learning methods designed for various NLP task.
     *Shuofei Qiao, Yixin Ou, Ningyu Zhang, Xiang Chen, Yunzhi Yao, Shumin Deng, Chuanqi Tan, Fei Huang, Huajun Chen* 
     [[pdf](https://arxiv.org/abs/2212.09597)]
     
+
+38. **AWT: Transferring Vision-Language Models via Augmentation, Weighting, and Transportation.** NeurIPS 2024. ![](https://img.shields.io/badge/AWT-blue) ![](https://img.shields.io/badge/Discrete_Template-red) ![](https://img.shields.io/badge/Vision_Language_Classification-green)
+
+    *Yuhan Zhu, Yuyang Ji, Zhiyu Zhao, Gangshan Wu, Limin Wang.* [[pdf](https://arxiv.org/abs/2407.04603)], [[Publication](https://proceedings.neurips.cc/paper_files/paper/2024/hash/2d4eaf042567f1c03c086103cc154c1f-Abstract-Conference.html)], [[project](https://github.com/MCG-NJU/AWT)]
+
+39. **FreeRet: MLLMs as Training-Free Retrievers.** ICML 2026. ![](https://img.shields.io/badge/FreeRet-blue) ![](https://img.shields.io/badge/Prompt_Design-green) ![](https://img.shields.io/badge/Multimodal_Retrieval-red)
+
+    *Yuhan Zhu, Xiangyu Zeng, Chenting Wang, Xinhao Li, Chunxu Liu, Yicheng Xu, Ziang Yan, Yi Wang, Limin Wang.* [[pdf](https://arxiv.org/abs/2509.24621)], [[Publication](https://proceedings.mlr.press/v306/zhu26ba.html)], [[project](https://github.com/MCG-NJU/FreeRet)]
 
 ## Contribution
 
